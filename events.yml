@@ -1,0 +1,49 @@
+missions:
+  reset-hours: 24
+  definitions:
+    sell:
+      type: SELL_MONEY
+      target: 1000000
+      reward: {type: CRYSTALS, amount: 100}
+    mine:
+      type: MINE_BLOCKS
+      target: 100
+      reward: {type: MONEY, amount: 100000}
+    generators:
+      type: PLACE_GENERATORS
+      target: 10
+      reward: {type: CRATE_KEY, value: vote, amount: 1}
+    farm:
+      type: HARVEST_CROPS
+      target: 250
+      reward: {type: MONEY, amount: 250000}
+
+supply-drops:
+  interval-minutes: 45
+  minimum-online: 2
+  expire-minutes: 5
+  rewards:
+    - {weight: 30, type: MONEY, amount: 100000}
+    - {weight: 20, type: MONEY, amount: 250000}
+    - {weight: 20, type: CRYSTALS, amount: 50}
+    - {weight: 15, type: GENERATOR, value: cobalt, amount: 1}
+    - {weight: 10, type: GENERATOR, value: obsidian, amount: 1}
+    - {weight: 5, type: CRATE_KEY, value: event, amount: 1}
+
+ads:
+  interval-seconds: 240
+  messages:
+    - "<#8B5CF6><bold>TIP</bold> <gray>Use <white>/missions <gray>for daily rewards."
+    - "<#8B5CF6><bold>TIP</bold> <gray>Use <white>/menu <gray>to navigate Vupe."
+    - "<#8B5CF6><bold>TIP</bold> <gray>Generators upgrade with sneak-right-click."
+
+player-advertisements:
+  enabled: true
+  price: 250000
+  cooldown-seconds: 120
+  prefix: "<dark_gray>[<#F472B6>AD<dark_gray>] "
+  maximum-length: 120
+
+purchase-broadcast:
+  enabled: true
+  format: "<gradient:#8B5CF6:#22D3EE><bold>VUPE STORE</bold></gradient> <dark_gray>» <white>%player% <gray>bought <white>%item% <gray>for <green>%price%$"

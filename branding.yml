@@ -1,0 +1,21 @@
+brand:
+  name: Vupe
+  short-name: VUPE
+  prefix: <dark_gray>[<gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient><dark_gray>]
+    <gray>
+  website: CHANGE_ME_STORE_URL
+  discord: https://discord.gg/CHANGE_ME
+  server-address: play.vupe.example
+  colors:
+    primary: '#8B5CF6'
+    accent: '#22D3EE'
+    hot: '#F472B6'
+    success: '#34D399'
+    warning: '#FBBF24'
+    danger: '#FB7185'
+    neutral: '#94A3B8'
+  motd:
+    line-1: <gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient> <gray>• Generators
+      • Fishing • Mining
+    line-2: <gray>Plots • Economy • Events • Progression
+  store: https://store.vupe.example

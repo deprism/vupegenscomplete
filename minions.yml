@@ -1,0 +1,12 @@
+minions:
+  enabled: false
+  max-per-player: 20
+  cycle-seconds: 10
+  types:
+    coal: {display: "<dark_gray>Coal Minion", material: COAL_BLOCK, output: COAL, amount-per-cycle: 1}
+    iron: {display: "<white>Iron Minion", material: IRON_BLOCK, output: IRON_INGOT, amount-per-cycle: 1}
+    gold: {display: "<gold>Gold Minion", material: GOLD_BLOCK, output: GOLD_INGOT, amount-per-cycle: 1}
+    redstone: {display: "<red>Redstone Minion", material: REDSTONE_BLOCK, output: REDSTONE, amount-per-cycle: 2}
+    lapis: {display: "<blue>Lapis Minion", material: LAPIS_BLOCK, output: LAPIS_LAZULI, amount-per-cycle: 2}
+    diamond: {display: "<aqua>Diamond Minion", material: DIAMOND_BLOCK, output: DIAMOND, amount-per-cycle: 1}
+    emerald: {display: "<green>Emerald Minion", material: EMERALD_BLOCK, output: EMERALD, amount-per-cycle: 1}

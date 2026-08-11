@@ -1,0 +1,19 @@
+moderation:
+  default-reasons:
+    spam: {duration: 10m, action: MUTE}
+    toxicity: {duration: 30m, action: MUTE}
+    cheating: {duration: 7d, action: BAN}
+    advertising: {duration: 1d, action: MUTE}
+  chat:
+    cooldown-millis: 0
+    muted: false
+  reports:
+    cooldown-seconds: 60
+  anti-alt:
+    enabled: true
+    max-accounts-per-ip: 3
+    staff-bypass: true
+  captcha:
+    enabled: true
+    only-new-players: true
+    timeout-seconds: 120

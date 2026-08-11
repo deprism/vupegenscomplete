@@ -1,0 +1,41 @@
+leveling:
+  max-level: 2500
+  xp-base: 125
+  xp-growth: 1.035
+  level-up:
+    broadcast-every: 50
+    title: "<gradient:#22D3EE:#8B5CF6><bold>LEVEL UP!</bold></gradient>"
+    subtitle: "<gray>You reached level <white>%level%"
+  milestone-rewards:
+    "5": {type: CRYSTALS, amount: 100}
+    "10": {type: MONEY, amount: 50000}
+    "25": {type: CRATE_KEY, value: vote, amount: 2}
+    "50": {type: CRYSTALS, amount: 1000}
+    "75": {type: GENERATOR, value: cobalt, amount: 2}
+    "100": {type: CRATE_KEY, value: cipher, amount: 2}
+    "150": {type: SELL_MULTIPLIER, amount: 0.05}
+    "250": {type: CRYSTALS, amount: 10000}
+    "500": {type: CRATE_KEY, value: titan, amount: 2}
+    "750": {type: GEN_SLOTS, amount: 10}
+    "1000": {type: SELL_MULTIPLIER, amount: 0.15}
+    "1250": {type: CRYSTALS, amount: 50000}
+    "1500": {type: CRATE_KEY, value: vupe, amount: 3}
+    "1750": {type: GEN_SLOTS, amount: 25}
+    "2000": {type: SELL_MULTIPLIER, amount: 0.25}
+    "2250": {type: CRYSTALS, amount: 150000}
+    "2500": {type: COMMAND, value: "lp user %player% permission set vupe.levelmaster true"}
+
+prestige:
+  enabled: true
+  max: 100
+  requirement-level: 2500
+  reset-level: true
+  rewards:
+    crystals-base: 25000
+    crystals-growth: 1.18
+    sell-multiplier-per-prestige: 0.025
+    gen-slots-per-prestige: 2
+    crate-every-5: vupe
+  titles:
+    confirm: "<#F472B6><bold>PRESTIGE %next%</bold>"
+    success: "<gradient:#F472B6:#8B5CF6><bold>PRESTIGE %prestige%</bold></gradient>"

@@ -1,0 +1,16 @@
+voting:
+  enabled: true
+  links:
+    - "CHANGE_ME_VOTE_URL_1"
+    - "CHANGE_ME_VOTE_URL_2"
+  per-vote:
+    crate: vote
+    keys: 1
+    money: 25000
+  party:
+    required-votes: 25
+    reward-crate: vote
+    reward-keys: 1
+  allow-console-bridge: true
+  # Configure any vote receiver/site integration to execute:
+  #   vupevote %player% %service%

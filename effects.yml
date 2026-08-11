@@ -1,0 +1,23 @@
+sounds:
+  open: {sound: BLOCK_ENDER_CHEST_OPEN, volume: 0.65, pitch: 1.25}
+  click: {sound: UI_BUTTON_CLICK, volume: 0.75, pitch: 1.2}
+  success: {sound: ENTITY_EXPERIENCE_ORB_PICKUP, volume: 0.9, pitch: 1.55}
+  error: {sound: ENTITY_VILLAGER_NO, volume: 0.8, pitch: 0.85}
+  purchase: {sound: ENTITY_PLAYER_LEVELUP, volume: 0.95, pitch: 1.35}
+  level-up: {sound: UI_TOAST_CHALLENGE_COMPLETE, volume: 1.0, pitch: 1.0}
+  rankup: {sound: ENTITY_ENDER_DRAGON_GROWL, volume: 0.45, pitch: 1.7}
+  prestige: {sound: UI_TOAST_CHALLENGE_COMPLETE, volume: 1.0, pitch: 0.8}
+  broadcast: {sound: BLOCK_NOTE_BLOCK_PLING, volume: 0.8, pitch: 1.35}
+  staff-alert: {sound: BLOCK_NOTE_BLOCK_BELL, volume: 1.0, pitch: 0.65}
+  crate: {sound: BLOCK_RESPAWN_ANCHOR_CHARGE, volume: 0.8, pitch: 1.4}
+  reward: {sound: ENTITY_FIREWORK_ROCKET_TWINKLE, volume: 1.0, pitch: 1.1}
+  countdown: {sound: BLOCK_NOTE_BLOCK_HAT, volume: 0.55, pitch: 1.4}
+  page: {sound: ITEM_BOOK_PAGE_TURN, volume: 0.7, pitch: 1.1}
+celebration:
+  firework: true
+broadcast:
+  title-enabled: true
+  particles-enabled: true
+gui:
+  animate-borders: true
+  animation-period-ticks: 8

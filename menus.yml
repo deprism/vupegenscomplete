@@ -1,0 +1,285 @@
+main-menu:
+  title: <gradient:#8B5CF6:#22D3EE><bold>VUPE • CONTROL CENTER</bold></gradient>
+  size: 54
+  items:
+    profile:
+      slot: 4
+      material: PLAYER_HEAD
+      name: <white><bold>YOUR VUPE PROFILE</bold>
+      command: stats
+      lore:
+      - <gray>Stats • level • prestige • rank • currencies
+      - <yellow>Click to open your profile.
+    shop:
+      slot: 10
+      material: EMERALD
+      name: <green><bold>SERVER SHOP</bold>
+      command: shop
+      lore:
+      - <gray>Blocks • Building • Logs • Farming
+      - <gray>Redstone • Ores • Misc • more.
+      - <yellow>Native Vupe category shop.
+    crystal:
+      slot: 11
+      material: AMETHYST_SHARD
+      name: <#8B5CF6><bold>CRYSTAL EMPORIUM</bold>
+      command: crystalshop
+      lore:
+      - <gray>12 categories of progression purchases.
+      - <yellow>Click to browse.
+    gens:
+      slot: 12
+      material: RESPAWN_ANCHOR
+      name: <#22D3EE><bold>GENERATORS</bold>
+      command: gens
+      lore:
+      - <gray>Core progression • upgrades • slots • output.
+      - <yellow>Click to manage.
+    autosell:
+      slot: 13
+      material: HOPPER
+      name: <#34D399><bold>AUTOSELL NETWORK</bold>
+      command: autosellchest
+      lore:
+      - <gray>Physical AutoSell Chests • tiers • holograms.
+      - <yellow>Click for network status.
+    auction:
+      slot: 14
+      material: CHEST
+      name: <gold><bold>AUCTION HOUSE</bold>
+      command: auction
+      lore:
+      - <gray>Listings • search • filters • live bids • claims.
+      - <yellow>Native Vupe bidding & claims.
+    crates:
+      slot: 15
+      material: TRIPWIRE_HOOK
+      name: <#F472B6><bold>CRATES</bold>
+      command: crates
+      lore:
+      - <gray>Animated crates • previews • virtual keys.
+      - <yellow>Native Vupe animated crates.
+    store:
+      slot: 16
+      material: NETHER_STAR
+      name: <gradient:#F472B6:#8B5CF6><bold>VUPE STORE</bold></gradient>
+      command: store
+      lore:
+      - <gray>Ranks • bundles • keys • boosters • cosmetics.
+      - <yellow>Click to browse.
+    ranks:
+      slot: 19
+      material: COMPASS
+      name: <#22D3EE><bold>RANK PATH</bold>
+      command: rankup
+      lore:
+      - <gray>20-rank progression tree with permanent perks.
+      - <yellow>Click to view.
+    levels:
+      slot: 20
+      material: EXPERIENCE_BOTTLE
+      name: <#38BDF8><bold>LEVELS</bold>
+      command: levels
+      lore:
+      - <gray>2,500 levels • milestones • reward center.
+      - <yellow>Click to view.
+    perks:
+      slot: 21
+      material: NAME_TAG
+      name: <#A78BFA><bold>RANKS & PERKS</bold>
+      command: perks
+      lore:
+      - <gray>Compare Echo → Vupe+ donor benefits.
+      - <yellow>Click to compare.
+    rewards:
+      slot: 22
+      material: BUNDLE
+      name: <#FBBF24><bold>REWARD CENTER</bold>
+      command: rewards
+      lore:
+      - <gray>Claim unlocked level milestone rewards.
+      - <yellow>Click to claim.
+    missions:
+      slot: 23
+      material: WRITABLE_BOOK
+      name: <#C084FC><bold>MISSIONS</bold>
+      command: missions
+      lore:
+      - <gray>Daily gameplay goals and rewards.
+      - <yellow>Click to view.
+    teams:
+      slot: 24
+      material: SHIELD
+      name: <#67E8F9><bold>TEAMS</bold>
+      command: team
+      lore:
+      - <gray>Create • invite • chat • compete.
+      - <yellow>Click for commands/status.
+    coinflip:
+      slot: 25
+      material: GOLD_NUGGET
+      name: <gold><bold>COINFLIPS</bold>
+      command: coinflip
+      lore:
+      - <gray>Player-vs-player economy wagering.
+      - <yellow>Click to browse.
+    fishing:
+      slot: 28
+      material: FISHING_ROD
+      name: <#67E8F9><bold>FISHING</bold>
+      command: lake
+      lore:
+      - <gray>Vupe Rod • enchant tree • cooler • travel.
+      - <yellow>Click to travel.
+    mining:
+      slot: 29
+      material: DIAMOND_PICKAXE
+      name: <#22D3EE><bold>MINING</bold>
+      command: mine
+      lore:
+      - <gray>Vupe Drill • backpack • enchants • mine.
+      - <yellow>Click to travel.
+    farming:
+      slot: 30
+      material: DIAMOND_HOE
+      name: <#34D399><bold>FARMING</bold>
+      command: farming
+      lore:
+      - <gray>Vupe Harvester • farming enchants • farm.
+      - <yellow>Click to manage.
+    plots:
+      slot: 31
+      material: GRASS_BLOCK
+      name: <#34D399><bold>YOUR PLOT</bold>
+      command: warps plot
+      lore:
+      - <gray>PlotSquared plot home/auto-claim route.
+      - <yellow>Click to teleport.
+    warps:
+      slot: 32
+      material: ENDER_PEARL
+      name: <#F472B6><bold>WARPS</bold>
+      command: warps
+      lore:
+      - <gray>Spawn • Plot • Fishing • PvP • Farm • Mine • Crates.
+      - <yellow>Click to travel.
+    vote:
+      slot: 33
+      material: SUNFLOWER
+      name: <#FBBF24><bold>VOTE</bold>
+      command: vote
+      lore:
+      - <gray>Vote links • rewards • vote party.
+      - <yellow>Click to view.
+    guide:
+      slot: 34
+      material: BOOK
+      name: <white><bold>GUIDE</bold>
+      command: guide
+      lore:
+      - <gray>Learn every major Vupe system.
+      - <yellow>Click to read.
+    options:
+      slot: 38
+      material: COMPARATOR
+      name: <gray><bold>OPTIONS</bold>
+      command: options
+      lore:
+      - <gray>Mentions • ads • personal preferences.
+    vaults:
+      slot: 39
+      material: ENDER_CHEST
+      name: <#A78BFA><bold>VAULTS</bold>
+      command: pv
+      lore:
+      - <gray>Persistent personal storage.
+    boosters:
+      slot: 40
+      material: BEACON
+      name: <#C084FC><bold>BOOSTERS</bold>
+      command: boosters
+      lore:
+      - <gray>View active personal/global multipliers.
+    discord:
+      slot: 41
+      material: SCULK_SENSOR
+      name: <#5865F2><bold>DISCORD</bold>
+      command: discord
+      lore:
+      - <gray>Community • linking • tickets • suggestions.
+    staff:
+      slot: 42
+      material: IRON_AXE
+      name: <#F472B6><bold>STAFF CENTER</bold>
+      command: staff
+      lore:
+      - <gray>Visible only if your permissions allow the command.
+      - <gray>Players without staff permission receive no access.
+    chatcolor:
+      slot: 43
+      material: INK_SAC
+      name: <gradient:#22D3EE:#F472B6><bold>CHAT STYLE</bold></gradient>
+      command: chatcolor
+      lore:
+      - <gray>Choose your unlocked chat color.
+      - <yellow>Click to customize.
+warps-menu:
+  title: <gradient:#F472B6:#22D3EE><bold>VUPE • TRAVEL</bold></gradient>
+  size: 45
+  items:
+    spawn:
+      slot: 10
+      material: NETHER_STAR
+      name: <#8B5CF6><bold>SPAWN</bold>
+      warp: spawn
+      lore:
+      - <gray>Main hub • shops • crates • NPCs.
+    plot:
+      slot: 12
+      material: GRASS_BLOCK
+      name: <#34D399><bold>YOUR PLOT</bold>
+      warp: plot
+      lore:
+      - <gray>PlotSquared home/auto-claim.
+    fishing:
+      slot: 14
+      material: FISHING_ROD
+      name: <#67E8F9><bold>FISHING</bold>
+      warp: fishing
+      lore:
+      - <gray>Lake • ship • beach.
+    pvp:
+      slot: 16
+      material: DIAMOND_SWORD
+      name: <#FB7185><bold>PVP</bold>
+      warp: pvp
+      lore:
+      - <gray>Combat arena • bounties • events.
+    farm:
+      slot: 28
+      material: WHEAT
+      name: <#FBBF24><bold>FARM</bold>
+      warp: farm
+      lore:
+      - <gray>Vupe Harvester progression.
+    mine:
+      slot: 30
+      material: DIAMOND_PICKAXE
+      name: <#22D3EE><bold>MINE</bold>
+      warp: mine
+      lore:
+      - <gray>Vupe Drill progression.
+    crates:
+      slot: 32
+      material: TRIPWIRE_HOOK
+      name: <#A78BFA><bold>CRATES</bold>
+      warp: crates
+      lore:
+      - <gray>Animated crate room.
+    menu:
+      slot: 40
+      material: COMPASS
+      name: <white><bold>MAIN MENU</bold>
+      warp: spawn
+      lore:
+      - <gray>Return to the Vupe hub.

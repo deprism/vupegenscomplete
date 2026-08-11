@@ -1,0 +1,73 @@
+mining:
+  drill:
+    material: DIAMOND_PICKAXE
+    name: "<#22D3EE><bold>Vupe Drill</bold>"
+    custom-model-data: 91001
+    price: 15000
+  backpack:
+    base-capacity: 250
+    capacity-per-level: 250
+    max-level: 20
+    upgrade-base-cost: 100000
+  block-respawn-seconds: 4
+  generation:
+    radius: 12
+    depth: 12
+    blocks-per-tick: 500
+    palette:
+      STONE: 45
+      DEEPSLATE: 20
+      COAL_ORE: 10
+      COPPER_ORE: 8
+      IRON_ORE: 7
+      GOLD_ORE: 4
+      REDSTONE_ORE: 3
+      LAPIS_ORE: 1.5
+      DIAMOND_ORE: 1
+      EMERALD_ORE: 0.5
+  crystal-chance-per-thousand: 10
+  blocks:
+    STONE: 10
+    DEEPSLATE: 14
+    COAL_ORE: 25
+    DEEPSLATE_COAL_ORE: 25
+    COPPER_ORE: 35
+    DEEPSLATE_COPPER_ORE: 35
+    IRON_ORE: 60
+    DEEPSLATE_IRON_ORE: 60
+    GOLD_ORE: 100
+    DEEPSLATE_GOLD_ORE: 100
+    REDSTONE_ORE: 125
+    DEEPSLATE_REDSTONE_ORE: 125
+    LAPIS_ORE: 150
+    DEEPSLATE_LAPIS_ORE: 150
+    DIAMOND_ORE: 350
+    DEEPSLATE_DIAMOND_ORE: 350
+    EMERALD_ORE: 500
+    DEEPSLATE_EMERALD_ORE: 500
+
+  enchants:
+    generosity: {max: 100, base-cost: 30, growth: 1.06, chance-per-level: 0.005, description: "Rare global crystal reward."}
+    crystalextractor: {max: 100, base-cost: 15, growth: 1.06, chance-per-level: 0.10, description: "Find extra crystals."}
+    transfuse: {max: 100, base-cost: 20, growth: 1.06, chance-per-level: 0.1167, description: "Improve mined resource tier."}
+    intelligence: {max: 100, base-cost: 10, growth: 1.06, chance-per-level: 0.50, description: "Earn extra progression XP."}
+    superbreaker: {max: 2, base-cost: 10000, growth: 2.0, chance-per-level: 0, description: "Haste burst."}
+    treasurefinder: {max: 100, base-cost: 25, growth: 1.06, chance-per-level: 0.03, description: "Find boxes."}
+    income: {max: 100, base-cost: 15, growth: 1.05, chance-per-level: 0.25, description: "Cash bonus."}
+    prosperity: {max: 100, base-cost: 25, growth: 1.06, chance-per-level: 0.15, description: "Increase backpack value."}
+    librarian: {max: 100, base-cost: 10, growth: 1.06, chance-per-level: 0.01, description: "Earn large XP bursts."}
+    fracture: {max: 100, base-cost: 20, growth: 1.06, chance-per-level: 0.1428, description: "Mine adjacent blocks."}
+    autosell: {max: 1, base-cost: 15000, growth: 1.0, chance-per-level: 100, description: "Autosell full backpack."}
+    momentum: {max: 2, base-cost: 10000, growth: 2.0, chance-per-level: 0, description: "Speed burst."}
+    vitals: {max: 1, base-cost: 15000, growth: 1.0, chance-per-level: 0, description: "Regeneration burst."}
+
+breakable-generators:
+  respawn-seconds: 5
+  tiers:
+    "1": {material: COAL_ORE, display: "<dark_gray>Coal Break Core", earnings: 1000, upgrade: 300000, next: "2"}
+    "2": {material: IRON_ORE, display: "<white>Iron Break Core", earnings: 1250, upgrade: 575000, next: "3"}
+    "3": {material: GOLD_ORE, display: "<gold>Gold Break Core", earnings: 1500, upgrade: 1620000, next: "4"}
+    "4": {material: LAPIS_ORE, display: "<blue>Lapis Break Core", earnings: 2000, upgrade: 2610000, next: "5"}
+    "5": {material: REDSTONE_ORE, display: "<red>Redstone Break Core", earnings: 3000, upgrade: 5760000, next: "6"}
+    "6": {material: DIAMOND_ORE, display: "<aqua>Diamond Break Core", earnings: 5000, upgrade: 15750000, next: "7"}
+    "7": {material: EMERALD_ORE, display: "<green>Emerald Break Core", earnings: 7500, upgrade: 0, next: ""}

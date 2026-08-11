@@ -1,0 +1,15 @@
+npcs:
+  use-native-entities: true
+  defaults:
+    entity-type: VILLAGER
+    invulnerable: true
+    ai: false
+    silent: true
+    persistent: true
+  roles:
+    shop: {display: "<#22D3EE><bold>SHOP</bold>", command: "shop"}
+    plots: {display: "<#8B5CF6><bold>YOUR PLOT</bold>", command: "warps plot"}
+    warps: {display: "<#F472B6><bold>WARPS</bold>", command: "warps"}
+    start: {display: "<#34D399><bold>START</bold>", command: "start"}
+    fisher: {display: "<#22D3EE><bold>FISHERMAN</bold>", command: "cooler"}
+    skipper: {display: "<#67E8F9><bold>SKIPPER</bold>", command: "fishtravel"}

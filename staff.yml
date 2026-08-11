@@ -1,0 +1,115 @@
+staff-ranks:
+  helper:
+    display: "<#67E8F9><bold>HELPER</bold>"
+    plain-prefix: "&b&lHELPER &8» &f"
+    prefix: "<#67E8F9><bold>HELPER</bold> <dark_gray>» <white>"
+    weight: 500
+    prefix-priority: 500
+    permissions: [vupe.staff, vupe.report.view, vupe.staffchat]
+  moderator:
+    display: "<#22D3EE><bold>MOD</bold>"
+    plain-prefix: "&3&lMOD &8» &f"
+    prefix: "<#22D3EE><bold>MOD</bold> <dark_gray>» <white>"
+    weight: 550
+    prefix-priority: 550
+    permissions: [vupe.staff, vupe.report.view, vupe.staffchat, vupe.punish.mute, vupe.punish.kick, vupe.vanish]
+  srmod:
+    display: "<#38BDF8><bold>SR.MOD</bold>"
+    plain-prefix: "&9&lSR.MOD &8» &f"
+    prefix: "<#38BDF8><bold>SR.MOD</bold> <dark_gray>» <white>"
+    weight: 600
+    prefix-priority: 600
+    permissions: [vupe.staff, vupe.report.view, vupe.staffchat, vupe.punish.*, vupe.vanish, vupe.invsee]
+  admin:
+    display: "<#A78BFA><bold>ADMIN</bold>"
+    plain-prefix: "&d&lADMIN &8» &f"
+    prefix: "<#A78BFA><bold>ADMIN</bold> <dark_gray>» <white>"
+    weight: 700
+    prefix-priority: 700
+    permissions: [vupe.staff, vupe.admin, vupe.punish.*, vupe.vanish, vupe.invsee, vupe.editinv]
+  sradmin:
+    display: "<#C084FC><bold>SR.ADMIN</bold>"
+    plain-prefix: "&5&lSR.ADMIN &8» &f"
+    prefix: "<#C084FC><bold>SR.ADMIN</bold> <dark_gray>» <white>"
+    weight: 750
+    prefix-priority: 750
+    permissions: [vupe.staff, vupe.admin, vupe.punish.*, vupe.vanish, vupe.invsee, vupe.editinv, vupe.bypass]
+  manager:
+    display: "<#F472B6><bold>MANAGER</bold>"
+    plain-prefix: "&d&lMANAGER &8» &f"
+    prefix: "<#F472B6><bold>MANAGER</bold> <dark_gray>» <white>"
+    weight: 800
+    prefix-priority: 800
+    permissions: [vupe.staff, vupe.admin, vupe.punish.*, vupe.vanish, vupe.invsee, vupe.editinv, vupe.bypass]
+  developer:
+    display: "<gradient:#22D3EE:#8B5CF6><bold>DEVELOPER</bold></gradient>"
+    plain-prefix: "&b&lDEV &8» &f"
+    prefix: "<gradient:#22D3EE:#8B5CF6><bold>DEV</bold></gradient> <dark_gray>» <white>"
+    weight: 900
+    prefix-priority: 900
+    permissions: [vupe.staff, vupe.admin, vupe.bypass]
+  owner:
+    display: "<gradient:#F472B6:#8B5CF6><bold>OWNER</bold></gradient>"
+    plain-prefix: "&c&lOWNER &8» &f"
+    prefix: "<gradient:#F472B6:#8B5CF6><bold>OWNER</bold></gradient> <dark_gray>» <white>"
+    weight: 1000
+    prefix-priority: 1000
+    permissions: ['*']
+  builder:
+    display: "<#34D399><bold>BUILDER</bold>"
+    plain-prefix: "&a&lBUILDER &8» &f"
+    prefix: "<#34D399><bold>BUILDER</bold> <dark_gray>» <white>"
+    weight: 450
+    prefix-priority: 450
+    permissions: [vupe.staffchat]
+  media:
+    display: "<#F43F5E><bold>MEDIA</bold>"
+    plain-prefix: "&c&lMEDIA &8» &f"
+    prefix: "<#F43F5E><bold>MEDIA</bold> <dark_gray>» <white>"
+    weight: 400
+    prefix-priority: 400
+    permissions: [vupe.fly]
+
+punishment-presets:
+  spam:
+    display: "<yellow>Spam / Flood"
+    icon: PAPER
+    action: MUTE
+    duration: 15m
+    reason: "Spam / flooding chat"
+  toxicity:
+    display: "<gold>Toxicity"
+    icon: BLAZE_POWDER
+    action: MUTE
+    duration: 1h
+    reason: "Toxic or abusive chat"
+  slurs:
+    display: "<red>Slurs / Hate Speech"
+    icon: REDSTONE
+    action: MUTE
+    duration: 12h
+    reason: "Hate speech / slurs"
+  griefing:
+    display: "<#F472B6>Griefing"
+    icon: TNT
+    action: BAN
+    duration: 3d
+    reason: "Griefing / destructive behavior"
+  cheating:
+    display: "<#A78BFA>Cheating"
+    icon: DIAMOND_SWORD
+    action: BAN
+    duration: 14d
+    reason: "Unfair client / cheating"
+  advertising:
+    display: "<#22D3EE>Advertising"
+    icon: OAK_SIGN
+    action: MUTE
+    duration: 6h
+    reason: "Unauthorized advertising"
+  permanent:
+    display: "<dark_red>Permanent Ban"
+    icon: BARRIER
+    action: BAN
+    duration: permanent
+    reason: "Severe / repeated rule violations"

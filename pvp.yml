@@ -1,0 +1,47 @@
+combat-tag:
+  duration-seconds: 15
+  blocked-commands: [spawn, home, back, warps, warp, mine, lake]
+  logout-kill: true
+
+bounties:
+  enabled: true
+  minimum: 1000
+  maximum: 1000000000
+
+koth:
+  enabled: false
+  capture-seconds: 180
+  reward:
+    money: 500000
+    crystals: 100
+    crate: event
+    keys: 1
+
+bosses:
+  enabled: false
+  definitions:
+    void_guardian:
+      entity: WITHER_SKELETON
+      display: "<#8B5CF6><bold>Void Guardian</bold>"
+      max-health: 500
+      damage: 10
+      reward-money: 2500000
+      reward-crystals: 250
+      reward-crate: titan
+
+custom-mobs:
+  definitions:
+    rift_raider:
+      entity: ZOMBIE
+      display: "<#8B5CF6>Rift Raider"
+      max-health: 40
+      damage: 5
+      reward-money: 5000
+      reward-crystals: 2
+    void_brute:
+      entity: HUSK
+      display: "<#F472B6>Void Brute"
+      max-health: 80
+      damage: 8
+      reward-money: 15000
+      reward-crystals: 5

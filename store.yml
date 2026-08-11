@@ -1,0 +1,303 @@
+store:
+  title: <gradient:#F472B6:#8B5CF6><bold>VUPE STORE</bold></gradient>
+  size: 54
+  url: https://store.vupe.example
+  categories:
+    ranks:
+      slot: 10
+      material: NETHER_STAR
+      display: <#A78BFA><bold>RANKS</bold>
+      lore:
+      - <gray>Permanent server ranks.
+      - <gray>Click for perks and prices.
+      offers:
+        echo:
+          slot: 10
+          material: AMETHYST_SHARD
+          display: <#67E8F9>Echo
+          price-usd: 4.99
+          grant: RANK:echo
+          lore:
+          - <gray>Permanent. Includes stacked gameplay perks.
+          - <yellow>Click for purchase link.
+        cipher:
+          slot: 11
+          material: PRISMARINE_CRYSTALS
+          display: <#22D3EE>Cipher
+          price-usd: 9.99
+          grant: RANK:cipher
+          lore:
+          - <gray>Permanent. Includes stacked gameplay perks.
+          - <yellow>Click for purchase link.
+        phantom:
+          slot: 12
+          material: ECHO_SHARD
+          display: <#F472B6>Phantom
+          price-usd: 19.99
+          grant: RANK:phantom
+          lore:
+          - <gray>Permanent. Includes stacked gameplay perks.
+          - <yellow>Click for purchase link.
+        titan:
+          slot: 13
+          material: NETHER_STAR
+          display: <#A78BFA>Titan
+          price-usd: 34.99
+          grant: RANK:titan
+          lore:
+          - <gray>Permanent. Includes stacked gameplay perks.
+          - <yellow>Click for purchase link.
+        vupeplus:
+          slot: 14
+          material: DRAGON_EGG
+          display: <gradient:#8B5CF6:#F472B6><bold>Vupe+</bold></gradient>
+          price-usd: 59.99
+          grant: RANK:vupeplus
+          lore:
+          - <gray>Permanent. Includes stacked gameplay perks.
+          - <yellow>Click for purchase link.
+    bundles:
+      slot: 12
+      material: BUNDLE
+      display: <#FBBF24><bold>BUNDLES</bold>
+      lore:
+      - <gray>Seasonal progression bundles.
+      offers:
+        starter:
+          slot: 10
+          material: BUNDLE
+          display: <#67E8F9>Starter Bundle
+          price-usd: 7.99
+          grant: BUNDLE:starter_store
+          lore:
+          - <gray>Keys • Crystals • Gens • Boosters
+        grinder:
+          slot: 11
+          material: BUNDLE
+          display: <#22D3EE>Grinder Bundle
+          price-usd: 14.99
+          grant: BUNDLE:grinder_store
+          lore:
+          - <gray>Keys • Crystals • Gens • Boosters
+        overdrive:
+          slot: 12
+          material: BUNDLE
+          display: <#F472B6>Overdrive Bundle
+          price-usd: 29.99
+          grant: BUNDLE:overdrive_store
+          lore:
+          - <gray>Keys • Crystals • Gens • Boosters
+        founder:
+          slot: 13
+          material: BUNDLE
+          display: <gradient:#FBBF24:#F472B6>Founder Bundle</gradient>
+          price-usd: 49.99
+          grant: BUNDLE:founder
+          lore:
+          - <gray>Keys • Crystals • Gens • Boosters
+    keys:
+      slot: 14
+      material: TRIPWIRE_HOOK
+      display: <#F472B6><bold>KEYS</bold>
+      lore:
+      - <gray>Animated crate packages.
+      offers:
+        keys_small:
+          slot: 10
+          material: TRIPWIRE_HOOK
+          display: <#67E8F9>Key Pack I
+          price-usd: 4.99
+          grant: BUNDLE:keys_small
+          lore:
+          - <gray>Native Vupe virtual keys.
+        keys_large:
+          slot: 11
+          material: TRIPWIRE_HOOK
+          display: <#A78BFA>Key Pack II
+          price-usd: 9.99
+          grant: BUNDLE:keys_large
+          lore:
+          - <gray>Native Vupe virtual keys.
+        keys_mythic:
+          slot: 12
+          material: TRIPWIRE_HOOK
+          display: <#F472B6>Key Pack III
+          price-usd: 19.99
+          grant: BUNDLE:keys_mythic
+          lore:
+          - <gray>Native Vupe virtual keys.
+    currency:
+      slot: 16
+      material: AMETHYST_SHARD
+      display: <#22D3EE><bold>CRYSTALS</bold>
+      lore:
+      - <gray>Premium progression currency.
+      offers:
+        crystals_25k:
+          slot: 10
+          material: AMETHYST_SHARD
+          display: <#8B5CF6>25,000 Crystals
+          price-usd: 4.99
+          grant: CRYSTALS:25000
+          lore:
+          - <gray>Instant account delivery.
+        crystals_75k:
+          slot: 11
+          material: AMETHYST_SHARD
+          display: <#8B5CF6>75,000 Crystals
+          price-usd: 9.99
+          grant: CRYSTALS:75000
+          lore:
+          - <gray>Instant account delivery.
+        crystals_200k:
+          slot: 12
+          material: AMETHYST_SHARD
+          display: <#8B5CF6>200,000 Crystals
+          price-usd: 19.99
+          grant: CRYSTALS:200000
+          lore:
+          - <gray>Instant account delivery.
+        crystals_600k:
+          slot: 13
+          material: AMETHYST_SHARD
+          display: <#8B5CF6>600,000 Crystals
+          price-usd: 39.99
+          grant: CRYSTALS:600000
+          lore:
+          - <gray>Instant account delivery.
+    boosters:
+      slot: 20
+      material: BEACON
+      display: <#C084FC><bold>BOOSTERS</bold>
+      lore:
+      - <gray>Personal and global boosters.
+      offers:
+        sell_3x:
+          slot: 10
+          material: BEACON
+          display: <gold>3x Sell • 1h
+          price-usd: 4.99
+          grant: BOOSTER:sell:3:60
+          lore:
+          - <gray>High-impact economy acceleration.
+        sell_5x:
+          slot: 11
+          material: BEACON
+          display: <gold>5x Sell • 1h
+          price-usd: 9.99
+          grant: BOOSTER:sell:5:60
+          lore:
+          - <gray>High-impact economy acceleration.
+        global_2x:
+          slot: 12
+          material: BEACON
+          display: <#F472B6>Global 2x Sell • 30m
+          price-usd: 19.99
+          grant: GLOBALBOOSTER:sell:2:30
+          lore:
+          - <gray>High-impact economy acceleration.
+    automation:
+      slot: 22
+      material: HOPPER
+      display: <#34D399><bold>AUTOMATION</bold>
+      lore:
+      - <gray>AutoSell and generator packages.
+      offers:
+        asc_3:
+          slot: 10
+          material: HOPPER
+          display: <#34D399>3 AutoSell Chests
+          price-usd: 4.99
+          grant: BUNDLE:asc3
+          lore:
+          - <gray>Automation-focused progression.
+        genpack:
+          slot: 11
+          material: HOPPER
+          display: <#22D3EE>Generator Overdrive Pack
+          price-usd: 14.99
+          grant: BUNDLE:genpack
+          lore:
+          - <gray>Automation-focused progression.
+    cosmetics:
+      slot: 24
+      material: NAME_TAG
+      display: <#F472B6><bold>COSMETICS</bold>
+      lore:
+      - <gray>Tags, effects and identity.
+      offers:
+        tagpack:
+          slot: 10
+          material: NAME_TAG
+          display: <#F472B6>Exclusive Tag Pack
+          price-usd: 4.99
+          grant: BUNDLE:tagpack
+          lore:
+          - <gray>Cosmetic only.
+        founder_tag:
+          slot: 11
+          material: NAME_TAG
+          display: <#FBBF24>Founder Identity
+          price-usd: 9.99
+          grant: TAG:founder
+          lore:
+          - <gray>Cosmetic only.
+    season:
+      slot: 30
+      material: RECOVERY_COMPASS
+      display: <gradient:#22D3EE:#F472B6><bold>SEASON PASS</bold></gradient>
+      lore:
+      - <gray>Season progression upgrades.
+      offers:
+        premium:
+          slot: 13
+          material: RECOVERY_COMPASS
+          display: <gradient:#22D3EE:#F472B6><bold>PREMIUM SEASON TRACK</bold></gradient>
+          price-usd: 14.99
+          grant: BUNDLE:seasonpass
+          lore:
+          - <gray>Extra milestone rewards for the current season.
+  grant-bundles:
+    starter_store:
+    - crystaleco give %player% 25000
+    - gens give %player% cobalt 3
+    - vupegrant %player% crate:vote:5
+    - vupegrant %player% crate:cipher:2
+    grinder_store:
+    - crystaleco give %player% 75000
+    - gens give %player% amethyst 4
+    - vupegrant %player% crate:cipher:5
+    - vupegrant %player% crate:phantom:3
+    overdrive_store:
+    - crystaleco give %player% 200000
+    - gens give %player% rift 5
+    - vupegrant %player% crate:titan:5
+    - vupegrant %player% crate:vupe:2
+    founder:
+    - crystaleco give %player% 500000
+    - gens give %player% zenith 5
+    - vupegrant %player% crate:vupe:5
+    - vupegrant %player% rank:vupeplus
+    keys_small:
+    - vupegrant %player% crate:vote:10
+    - vupegrant %player% crate:cipher:5
+    keys_large:
+    - vupegrant %player% crate:cipher:10
+    - vupegrant %player% crate:phantom:7
+    - vupegrant %player% crate:titan:3
+    keys_mythic:
+    - vupegrant %player% crate:titan:10
+    - vupegrant %player% crate:event:10
+    - vupegrant %player% crate:vupe:5
+    asc3:
+    - autosellchest give %player% 3
+    genpack:
+    - gens give %player% rift 5
+    - gens give %player% nova 5
+    - gens give %player% quantum 3
+    tagpack:
+    - vupegrant %player% tag:grinder
+    - vupegrant %player% tag:og
+    - vupegrant %player% tag:void
+    seasonpass:
+    - lp user %player% permission set vupe.season.premium true

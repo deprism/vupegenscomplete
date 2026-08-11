@@ -1,0 +1,59 @@
+kits:
+  echo:
+    cooldown-hours: 24
+    items:
+      - {material: IRON_SWORD, amount: 1, enchants: {SHARPNESS: 2}}
+      - {material: IRON_PICKAXE, amount: 1, enchants: {EFFICIENCY: 2}}
+      - {material: COOKED_BEEF, amount: 16}
+  cipher:
+    cooldown-hours: 24
+    items:
+      - {material: DIAMOND_SWORD, amount: 1, enchants: {SHARPNESS: 2}}
+      - {material: DIAMOND_PICKAXE, amount: 1, enchants: {EFFICIENCY: 3}}
+      - {material: COOKED_BEEF, amount: 24}
+  phantom:
+    cooldown-hours: 24
+    items:
+      - {material: DIAMOND_SWORD, amount: 1, enchants: {SHARPNESS: 3}}
+      - {material: DIAMOND_PICKAXE, amount: 1, enchants: {EFFICIENCY: 4}}
+      - {material: GOLDEN_CARROT, amount: 32}
+  titan:
+    cooldown-hours: 24
+    items:
+      - {material: DIAMOND_SWORD, amount: 1, enchants: {SHARPNESS: 4}}
+      - {material: DIAMOND_PICKAXE, amount: 1, enchants: {EFFICIENCY: 5}}
+      - {material: GOLDEN_CARROT, amount: 48}
+  vupeplus:
+    cooldown-hours: 24
+    items:
+      - {material: NETHERITE_SWORD, amount: 1, enchants: {SHARPNESS: 4}}
+      - {material: NETHERITE_PICKAXE, amount: 1, enchants: {EFFICIENCY: 5}}
+      - {material: GOLDEN_CARROT, amount: 64}
+
+starter:
+  money: 5000
+  generators:
+    scrap: 5
+  items:
+    - {material: STONE_PICKAXE, amount: 1}
+    - {material: COOKED_BEEF, amount: 16}
+
+daily:
+  echo: {crate: vote, keys: 2}
+  cipher: {crate: cipher, keys: 2}
+  phantom: {crate: phantom, keys: 2}
+  titan: {crate: titan, keys: 2}
+  vupeplus: {crate: vupe, keys: 3}
+
+reclaim:
+  echo: {slots: 25, sell-bonus: 0.20}
+  cipher: {slots: 50, sell-bonus: 0.50}
+  phantom: {slots: 100, sell-bonus: 1.0}
+  titan: {slots: 150, sell-bonus: 2.0}
+  vupeplus: {slots: 250, sell-bonus: 3.0}
+
+starterboost:
+  money: 25000
+  slots: 3
+  crate: vote
+  keys: 1

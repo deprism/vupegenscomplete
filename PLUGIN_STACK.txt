@@ -1,0 +1,45 @@
+VUPE MAX 2.1.0 — NATIVE COMMERCE STACK
+
+REQUIRED
+========
+VupeCore 2.1.0
+PlotSquared
+FastAsyncWorldEdit
+LuckPerms
+Vault
+PlaceholderAPI
+Multiverse-Core
+TAB
+
+OPTIONAL
+========
+ViaVersion
+ViaBackwards
+ViaRewind
+CoreProtect
+Tebex
+Votifier-compatible receiver
+
+NATIVE IN VUPECORE
+==================
+Money: /bal /balance /pay /eco /baltop
+Shop: /shop
+Crates: /crates
+Auction House: /ah /auction
+
+NOT REQUIRED
+============
+EzEconomy
+EconomyShopGUI
+CrazyCrates
+EzAuction
+Skript/addons
+MongoDB
+EssentialsX
+
+START
+=====
+docs/UPGRADE_TO_2_1_NATIVE.md
+docs/FULL_SETUP_GUIDE.md
+docs/NATIVE_COMMERCE.md
+docs/TEST_PLAN_2_1.md

@@ -1,0 +1,17 @@
+scoreboard:
+  enabled: true
+  title: "<gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient>"
+  lines:
+    - "<gray> "
+    - "<gray>Money: <green>$%money%"
+    - "<gray>Crystals: <#8B5CF6>%crystals%"
+    - "<gray>Rank: %rank%"
+    - "<gray>Level: <white>%level% <dark_gray>• <gray>P%prestige%"
+    - "<gray>Gens: <white>%gens%<dark_gray>/<white>%genslots%"
+    - "<gray>Online: <white>%online%"
+    - "<gray>  "
+    - "<#22D3EE>%server_address%"
+
+leaderboards:
+  size: 10
+  title-format: "<gradient:#8B5CF6:#22D3EE><bold>%type% TOP</bold></gradient>"

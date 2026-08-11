@@ -1,0 +1,330 @@
+name: VupeCore
+version: ${project.version}
+main: dev.vupe.core.VupeCore
+api-version: '1.21'
+author: Vupe
+description: 'Vupe MAX Native Commerce: full generator server core with native economy,
+  shop, crates and auction house.'
+load: POSTWORLD
+commands:
+  vupe:
+    description: Vupe administration and setup
+    usage: /vupe
+  menu:
+    description: Main menu
+  start:
+    description: Start your Vupe progression
+  sell:
+    description: Sell items
+  autosell:
+    description: Toggle generator autosell
+  boosters:
+    description: Active boosters
+  gens:
+    description: Generator menu
+    aliases:
+    - generators
+    - genslist
+  coinflip:
+    description: Coinflip system
+    aliases:
+    - coinflips
+    - cf
+  team:
+    description: Team system
+    aliases:
+    - teams
+  lake:
+    description: Fishing lake
+  cooler:
+    description: Fishing cooler
+  rod:
+    description: Vupe fishing rod and enchantments
+  mine:
+    description: Mine teleport
+  mining:
+    description: Mining/backpack menu
+    aliases:
+    - backpack
+  drill:
+    description: Vupe drill enchantments
+  farming:
+    description: Farming menu
+  rankup:
+    description: Progression ranks
+    aliases:
+    - ranks
+  rank:
+    description: Donor-rank administration
+  level:
+    description: Level information
+  prestige:
+    description: Prestige progression
+  stats:
+    description: Player statistics
+  warps:
+    description: Warp menu
+    aliases:
+    - warp
+  store:
+    description: Gold store
+  crystalshop:
+    description: Crystal shop
+  box:
+    description: Vupe boxes and lootboxes
+  minions:
+    description: Optional Vupe minions
+  hopperlimit:
+    description: Hopper limit
+  chestlimit:
+    description: Chest limit
+  missions:
+    description: Daily missions
+    aliases:
+    - dailies
+    - quests
+  sethome:
+    description: Set home
+  home:
+    description: Home
+  back:
+    description: Previous location
+  pv:
+    description: Player vault
+    aliases:
+    - vault
+    - playervault
+  kit:
+    description: Donor kits
+  fly:
+    description: Flight toggle
+  nick:
+    description: Nickname
+  trash:
+    description: Trash inventory
+    aliases:
+    - disposal
+  ec:
+    description: Ender chest
+    aliases:
+    - enderchest
+  workbench:
+    description: Crafting table
+    aliases:
+    - craft
+    - craftingtable
+  speed:
+    description: Walk/fly speed
+  skull:
+    description: Player skull
+  daily:
+    description: Donor daily
+  reclaim:
+    description: Season reclaim
+  starterboost:
+    description: Starter boost
+    aliases:
+    - freerank
+  crystals:
+    description: Crystal balance
+    aliases:
+    - crystal
+  gold:
+    description: Gold balance
+  report:
+    description: Report a player
+  staffchat:
+    description: Staff chat
+    aliases:
+    - sc
+  vanish:
+    description: Vanish
+  invsee:
+    description: View inventory
+  punish:
+    description: Punishment command
+  playtime:
+    description: Playtime
+  afk:
+    description: Toggle AFK
+  vote:
+    description: Voting links
+    aliases:
+    - voting
+  vupevote:
+    description: Console vote-reward bridge
+  discord:
+    description: Discord integration
+  supply:
+    description: Supply-drop system
+  koth:
+    description: KOTH system
+  bosses:
+    description: Boss system
+  bounty:
+    description: Bounty system
+    aliases:
+    - bounties
+  options:
+    description: Player options
+  tags:
+    description: Chat tags
+  ads:
+    description: Advertisement menu
+  guide:
+    description: Server guide
+  rules:
+    description: Server rules
+  crystaleco:
+    description: Admin crystal economy
+  crystalpay:
+    description: Pay crystals
+  crystalstop:
+    description: Crystal leaderboard
+    aliases:
+    - ctop
+  givegen:
+    description: Compatibility generator grant
+  genlist:
+    description: Generator list compatibility
+  sellwandgive:
+    description: Compatibility sellwand grant
+  msg:
+    description: Private messages
+    aliases:
+    - tell
+    - message
+    - whisper
+    - w
+  reply:
+    description: Reply to private message
+    aliases:
+    - r
+  ignore:
+    description: Ignore private messages
+  socialspy:
+    description: Staff private-message spy
+  broadcast:
+    description: Staff broadcast
+    aliases:
+    - bc
+  clearchat:
+    description: Clear public chat
+  mutechat:
+    description: Toggle global chat mute
+  chatcooldown:
+    description: Set global chat cooldown
+  editinv:
+    description: Edit an online player's inventory
+  mute:
+    description: Mute a player
+  unmute:
+    description: Unmute a player
+  ban:
+    description: Ban a player
+  unban:
+    description: Unban a player
+  kick:
+    description: Kick a player
+  punishments:
+    description: Punishment history
+  reports:
+    description: Staff report list
+  setspawn:
+    description: Compatibility spawn setup
+  setlake:
+    description: Compatibility fishing setup
+  setmine:
+    description: Compatibility mine setup
+  setcrates:
+    description: Compatibility crate-warp setup
+  setfishtravel:
+    description: Compatibility fishing travel setup
+  setlb:
+    description: Compatibility leaderboard setup
+  reloadlb:
+    description: Refresh leaderboards
+  deletealllb:
+    description: Delete leaderboard entities/locations
+  buybroadcast:
+    description: Staff purchase broadcast
+  admsg:
+    description: Send an advertisement
+  buybroadcasts:
+    description: View/buy broadcast information
+  flyspeed:
+    description: Compatibility flight speed
+  resetreclaim:
+    description: Admin reclaim reset
+  resetfreeranks:
+    description: Admin starter-boost reset
+  cancelcoinflip:
+    description: Admin/player coinflip cancellation
+  fishtravel:
+    description: Fishing travel menu
+  staff:
+    description: Vupe staff control center
+  staffrank:
+    description: LuckPerms staff-rank manager
+  autosellchest:
+    description: Vupe autosell chest system
+    aliases:
+    - asc
+    - sellchest
+  levels:
+    description: Level progression GUI
+    aliases:
+    - levelmenu
+  perks:
+    description: Rank/perk browser
+  rewards:
+    description: Reward center
+  vupegrant:
+    description: Console-safe Vupe store fulfillment
+  chatcolor:
+    description: Chat color selector
+    aliases:
+    - chatcolour
+  bal:
+    description: View a Vupe Money balance
+    aliases:
+    - money
+  balance:
+    description: View a Vupe Money balance
+  pay:
+    description: Pay another player Vupe Money
+  eco:
+    description: Administer Vupe Money
+    aliases:
+    - economy
+  baltop:
+    description: Vupe Money leaderboard
+    aliases:
+    - balancetop
+  shop:
+    description: Open the native Vupe category shop
+  crates:
+    description: Open/manage native Vupe crates
+    aliases:
+    - crate
+  ah:
+    description: Open the native Vupe Auction House
+    aliases:
+    - auction
+    - auctionhouse
+permissions:
+  vupe.admin:
+    default: op
+  vupe.staff:
+    default: op
+  vupe.bypass:
+    default: op
+depend:
+- PlotSquared
+- LuckPerms
+- Vault
+- PlaceholderAPI
+softdepend:
+- Multiverse-Core
+- TAB
+- FastAsyncWorldEdit

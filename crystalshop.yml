@@ -1,0 +1,731 @@
+crystal-shop:
+  title: <gradient:#8B5CF6:#22D3EE><bold>VUPE CRYSTAL EMPORIUM</bold></gradient>
+  size: 54
+  categories:
+    crates:
+      slot: 10
+      material: TRIPWIRE_HOOK
+      display: <#FBBF24><bold>CRATE KEYS</bold>
+      lore:
+      - <gray>Native animated Vupe crate keys.
+      - <yellow>Click to browse.
+      offers:
+        vote:
+          slot: 10
+          material: WHITE_DYE
+          display: <white>Vote Key
+          price: 16500
+          type: CRATE_KEY
+          value: vote
+          amount: 1
+          lore: []
+        cipher:
+          slot: 11
+          material: CYAN_DYE
+          display: <#22D3EE>Cipher Key
+          price: 40500
+          type: CRATE_KEY
+          value: cipher
+          amount: 1
+          lore: []
+        phantom:
+          slot: 12
+          material: PINK_DYE
+          display: <#F472B6>Phantom Key
+          price: 65000
+          type: CRATE_KEY
+          value: phantom
+          amount: 1
+          lore: []
+        titan:
+          slot: 13
+          material: PURPLE_DYE
+          display: <#A78BFA>Titan Key
+          price: 125000
+          type: CRATE_KEY
+          value: titan
+          amount: 1
+          lore: []
+        event:
+          slot: 14
+          material: ORANGE_DYE
+          display: <#FBBF24>Event Key
+          price: 175000
+          type: CRATE_KEY
+          value: event
+          amount: 1
+          lore: []
+        vupe:
+          slot: 15
+          material: NETHER_STAR
+          display: <gradient:#8B5CF6:#F472B6>Vupe Key</gradient>
+          price: 300000
+          type: CRATE_KEY
+          value: vupe
+          amount: 1
+          lore: []
+    lootboxes:
+      slot: 11
+      material: SHULKER_BOX
+      display: <#F472B6><bold>LOOTBOXES</bold>
+      lore:
+      - <gray>Multi-roll Vupe reward bundles.
+      - <yellow>Click to browse.
+      offers:
+        starter:
+          slot: 10
+          material: SHULKER_BOX
+          display: <#67E8F9>Starter Lootbox
+          price: 150000
+          type: LOOTBOX
+          value: starter
+          amount: 1
+          lore: []
+        prosperous:
+          slot: 11
+          material: SHULKER_BOX
+          display: <#A78BFA>Prosperous Lootbox
+          price: 400000
+          type: LOOTBOX
+          value: prosperous
+          amount: 1
+          lore: []
+        vupe:
+          slot: 12
+          material: SHULKER_BOX
+          display: <gradient:#8B5CF6:#F472B6>Vupe Lootbox</gradient>
+          price: 750000
+          type: LOOTBOX
+          value: vupe
+          amount: 1
+          lore: []
+        overdrive:
+          slot: 13
+          material: SHULKER_BOX
+          display: <gradient:#22D3EE:#FBBF24>Overdrive Lootbox</gradient>
+          price: 1250000
+          type: LOOTBOX
+          value: overdrive
+          amount: 1
+          lore: []
+    sellwands:
+      slot: 12
+      material: BLAZE_ROD
+      display: <gold><bold>SELLWANDS</bold>
+      lore:
+      - <gray>Container selling multipliers.
+      - <yellow>Click to browse.
+      offers:
+        x1_25:
+          slot: 10
+          material: BLAZE_ROD
+          display: <gold>1.25x Sellwand
+          price: 62500
+          type: SELLWAND
+          value: ''
+          amount: 1.25
+          lore: []
+        x1_5:
+          slot: 11
+          material: BLAZE_ROD
+          display: <gold>1.5x Sellwand
+          price: 90000
+          type: SELLWAND
+          value: ''
+          amount: 1.5
+          lore: []
+        x2_0:
+          slot: 12
+          material: BLAZE_ROD
+          display: <gold>2.0x Sellwand
+          price: 160000
+          type: SELLWAND
+          value: ''
+          amount: 2.0
+          lore: []
+        x2_5:
+          slot: 13
+          material: BLAZE_ROD
+          display: <gold>2.5x Sellwand
+          price: 250000
+          type: SELLWAND
+          value: ''
+          amount: 2.5
+          lore: []
+        x3_0:
+          slot: 14
+          material: BLAZE_ROD
+          display: <gold>3.0x Sellwand
+          price: 360000
+          type: SELLWAND
+          value: ''
+          amount: 3.0
+          lore: []
+        x4_0:
+          slot: 15
+          material: BLAZE_ROD
+          display: <gold>4.0x Sellwand
+          price: 640000
+          type: SELLWAND
+          value: ''
+          amount: 4.0
+          lore: []
+        x5_0:
+          slot: 16
+          material: BLAZE_ROD
+          display: <gold>5.0x Sellwand
+          price: 1000000
+          type: SELLWAND
+          value: ''
+          amount: 5.0
+          lore: []
+    ranks:
+      slot: 13
+      material: NETHER_STAR
+      display: <#A78BFA><bold>DONOR RANKS</bold>
+      lore:
+      - <gray>Permanent rank upgrades.
+      - <yellow>Click to browse.
+      offers:
+        echo:
+          slot: 10
+          material: AMETHYST_SHARD
+          display: <#67E8F9>Echo
+          price: 200000
+          type: RANK
+          value: echo
+          amount: 1
+          lore:
+          - <gray>Permanent donor-rank upgrade.
+          - <gray>Includes rank perks, kit, slots and multipliers.
+        cipher:
+          slot: 11
+          material: PRISMARINE_CRYSTALS
+          display: <#22D3EE>Cipher
+          price: 350000
+          type: RANK
+          value: cipher
+          amount: 1
+          lore:
+          - <gray>Permanent donor-rank upgrade.
+          - <gray>Includes rank perks, kit, slots and multipliers.
+        phantom:
+          slot: 12
+          material: ECHO_SHARD
+          display: <#F472B6>Phantom
+          price: 550000
+          type: RANK
+          value: phantom
+          amount: 1
+          lore:
+          - <gray>Permanent donor-rank upgrade.
+          - <gray>Includes rank perks, kit, slots and multipliers.
+        titan:
+          slot: 13
+          material: NETHER_STAR
+          display: <#A78BFA>Titan
+          price: 850000
+          type: RANK
+          value: titan
+          amount: 1
+          lore:
+          - <gray>Permanent donor-rank upgrade.
+          - <gray>Includes rank perks, kit, slots and multipliers.
+        vupeplus:
+          slot: 14
+          material: DRAGON_EGG
+          display: <gradient:#8B5CF6:#F472B6><bold>Vupe+</bold></gradient>
+          price: 1500000
+          type: RANK
+          value: vupeplus
+          amount: 1
+          lore:
+          - <gray>Permanent donor-rank upgrade.
+          - <gray>Includes rank perks, kit, slots and multipliers.
+    kits:
+      slot: 14
+      material: CHEST
+      display: <#67E8F9><bold>KITS</bold>
+      lore:
+      - <gray>Instant equipment & progression packs.
+      - <yellow>Click to browse.
+      offers:
+        echo:
+          slot: 10
+          material: CHEST
+          display: <white>Echo Kit
+          price: 5000
+          type: KIT
+          value: echo
+          amount: 1
+          lore: []
+        cipher:
+          slot: 11
+          material: CHEST
+          display: <white>Cipher Kit
+          price: 8500
+          type: KIT
+          value: cipher
+          amount: 1
+          lore: []
+        phantom:
+          slot: 12
+          material: CHEST
+          display: <white>Phantom Kit
+          price: 15000
+          type: KIT
+          value: phantom
+          amount: 1
+          lore: []
+        titan:
+          slot: 13
+          material: CHEST
+          display: <white>Titan Kit
+          price: 25000
+          type: KIT
+          value: titan
+          amount: 1
+          lore: []
+        vupeplus:
+          slot: 14
+          material: CHEST
+          display: <white>Vupeplus Kit
+          price: 45000
+          type: KIT
+          value: vupeplus
+          amount: 1
+          lore: []
+    money:
+      slot: 15
+      material: EMERALD
+      display: <green><bold>MONEY</bold>
+      lore:
+      - <gray>Convert Crystals into economy cash.
+      - <yellow>Click to browse.
+      offers:
+        money_100000:
+          slot: 10
+          material: EMERALD
+          display: <green>$100,000
+          price: 1000
+          type: MONEY
+          value: ''
+          amount: 100000
+          lore: []
+        money_500000:
+          slot: 11
+          material: EMERALD
+          display: <green>$500,000
+          price: 4000
+          type: MONEY
+          value: ''
+          amount: 500000
+          lore: []
+        money_2500000:
+          slot: 12
+          material: EMERALD
+          display: <green>$2,500,000
+          price: 16000
+          type: MONEY
+          value: ''
+          amount: 2500000
+          lore: []
+        money_10000000:
+          slot: 13
+          material: EMERALD
+          display: <green>$10,000,000
+          price: 55000
+          type: MONEY
+          value: ''
+          amount: 10000000
+          lore: []
+        money_100000000:
+          slot: 14
+          material: EMERALD
+          display: <green>$100,000,000
+          price: 450000
+          type: MONEY
+          value: ''
+          amount: 100000000
+          lore: []
+    generators:
+      slot: 16
+      material: RESPAWN_ANCHOR
+      display: <#22D3EE><bold>GENERATORS</bold>
+      lore:
+      - <gray>Buy advanced generator cores.
+      - <yellow>Click to browse.
+      offers:
+        cobalt:
+          slot: 10
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Cobalt Core
+          price: 40000
+          type: GENERATOR
+          value: cobalt
+          amount: 1
+          lore: []
+        ruby:
+          slot: 11
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Ruby Core
+          price: 56800
+          type: GENERATOR
+          value: ruby
+          amount: 1
+          lore: []
+        jade:
+          slot: 12
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Jade Core
+          price: 80656
+          type: GENERATOR
+          value: jade
+          amount: 1
+          lore: []
+        sapphire:
+          slot: 13
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Sapphire Core
+          price: 114531
+          type: GENERATOR
+          value: sapphire
+          amount: 1
+          lore: []
+        amethyst:
+          slot: 14
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Amethyst Core
+          price: 162634
+          type: GENERATOR
+          value: amethyst
+          amount: 1
+          lore: []
+        obsidian:
+          slot: 15
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Obsidian Core
+          price: 230941
+          type: GENERATOR
+          value: obsidian
+          amount: 1
+          lore: []
+        prism:
+          slot: 16
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Prism Core
+          price: 327936
+          type: GENERATOR
+          value: prism
+          amount: 1
+          lore: []
+        neon:
+          slot: 19
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Neon Core
+          price: 465670
+          type: GENERATOR
+          value: neon
+          amount: 1
+          lore: []
+        flux:
+          slot: 20
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Flux Core
+          price: 661251
+          type: GENERATOR
+          value: flux
+          amount: 1
+          lore: []
+        ion:
+          slot: 21
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Ion Core
+          price: 938977
+          type: GENERATOR
+          value: ion
+          amount: 1
+          lore: []
+        plasma:
+          slot: 22
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Plasma Core
+          price: 1333347
+          type: GENERATOR
+          value: plasma
+          amount: 1
+          lore: []
+        rift:
+          slot: 23
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Rift Core
+          price: 1893353
+          type: GENERATOR
+          value: rift
+          amount: 1
+          lore: []
+        nova:
+          slot: 24
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Nova Core
+          price: 2688562
+          type: GENERATOR
+          value: nova
+          amount: 1
+          lore: []
+        quantum:
+          slot: 25
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Quantum Core
+          price: 3817758
+          type: GENERATOR
+          value: quantum
+          amount: 1
+          lore: []
+        eclipse:
+          slot: 26
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Eclipse Core
+          price: 5421217
+          type: GENERATOR
+          value: eclipse
+          amount: 1
+          lore: []
+        zenith:
+          slot: 27
+          material: RESPAWN_ANCHOR
+          display: <#22D3EE>Zenith Core
+          price: 7698128
+          type: GENERATOR
+          value: zenith
+          amount: 1
+          lore: []
+    progression:
+      slot: 20
+      material: EXPERIENCE_BOTTLE
+      display: <#38BDF8><bold>PROGRESSION</bold>
+      lore:
+      - <gray>Slots, multipliers and account upgrades.
+      - <yellow>Click to browse.
+      offers:
+        slots_1:
+          slot: 10
+          material: HOPPER
+          display: <#22D3EE>+1 Generator Slot
+          price: 75000
+          type: GEN_SLOTS
+          value: ''
+          amount: 1
+          lore: []
+        slots_5:
+          slot: 11
+          material: HOPPER
+          display: <#22D3EE>+5 Generator Slots
+          price: 325000
+          type: GEN_SLOTS
+          value: ''
+          amount: 5
+          lore: []
+        slots_15:
+          slot: 12
+          material: HOPPER
+          display: <#22D3EE>+15 Generator Slots
+          price: 850000
+          type: GEN_SLOTS
+          value: ''
+          amount: 15
+          lore: []
+        multi_001:
+          slot: 14
+          material: EMERALD
+          display: <#F472B6>+0.01 Sell Multiplier
+          price: 125000
+          type: SELL_MULTIPLIER
+          value: ''
+          amount: 0.01
+          lore: []
+        multi_005:
+          slot: 15
+          material: EMERALD
+          display: <#F472B6>+0.05 Sell Multiplier
+          price: 550000
+          type: SELL_MULTIPLIER
+          value: ''
+          amount: 0.05
+          lore: []
+        multi_010:
+          slot: 16
+          material: EMERALD
+          display: <#F472B6>+0.10 Sell Multiplier
+          price: 950000
+          type: SELL_MULTIPLIER
+          value: ''
+          amount: 0.1
+          lore: []
+    boosters:
+      slot: 21
+      material: BEACON
+      display: <#C084FC><bold>BOOSTERS</bold>
+      lore:
+      - <gray>Timed personal economy boosts.
+      - <yellow>Click to browse.
+      offers:
+        sell_2x_30:
+          slot: 10
+          material: BEACON
+          display: <gold>2x Sell • 30m
+          price: 125000
+          type: SELL_BOOSTER
+          value: '30'
+          amount: 2.0
+          lore: []
+        sell_3x_30:
+          slot: 11
+          material: BEACON
+          display: <gold>3x Sell • 30m
+          price: 300000
+          type: SELL_BOOSTER
+          value: '30'
+          amount: 3.0
+          lore: []
+        sell_5x_15:
+          slot: 12
+          material: BEACON
+          display: <gold>5x Sell • 15m
+          price: 600000
+          type: SELL_BOOSTER
+          value: '15'
+          amount: 5.0
+          lore: []
+        crystal_2x_30:
+          slot: 14
+          material: BEACON
+          display: <#8B5CF6>2x Crystals • 30m
+          price: 150000
+          type: CRYSTAL_BOOSTER
+          value: '30'
+          amount: 2.0
+          lore: []
+        crystal_3x_30:
+          slot: 15
+          material: BEACON
+          display: <#8B5CF6>3x Crystals • 30m
+          price: 375000
+          type: CRYSTAL_BOOSTER
+          value: '30'
+          amount: 3.0
+          lore: []
+    automation:
+      slot: 22
+      material: HOPPER
+      display: <#34D399><bold>AUTOMATION</bold>
+      lore:
+      - <gray>AutoSell Chests and automation upgrades.
+      - <yellow>Click to browse.
+      offers:
+        autosell_chest:
+          slot: 10
+          material: CHEST
+          display: <#34D399><bold>AutoSell Chest</bold>
+          price: 250000
+          type: AUTOSELL_CHEST
+          value: ''
+          amount: 1
+          lore: []
+        autosell_chest_3:
+          slot: 11
+          material: CHEST
+          display: <#34D399>AutoSell Chest ×3
+          price: 650000
+          type: AUTOSELL_CHEST
+          value: ''
+          amount: 3
+          lore: []
+    cosmetics:
+      slot: 23
+      material: NAME_TAG
+      display: <#F472B6><bold>COSMETICS</bold>
+      lore:
+      - <gray>Chat tags and prestige cosmetics.
+      - <yellow>Click to browse.
+      offers:
+        grinder:
+          slot: 10
+          material: NAME_TAG
+          display: <#22D3EE>GRINDER
+          price: 25000
+          type: TAG
+          value: grinder
+          amount: 1
+          lore: []
+        og:
+          slot: 11
+          material: NAME_TAG
+          display: <#FBBF24>OG
+          price: 50000
+          type: TAG
+          value: og
+          amount: 1
+          lore: []
+        wealthy:
+          slot: 12
+          material: NAME_TAG
+          display: <green>WEALTHY
+          price: 75000
+          type: TAG
+          value: wealthy
+          amount: 1
+          lore: []
+        void:
+          slot: 13
+          material: NAME_TAG
+          display: <#8B5CF6>VOID
+          price: 125000
+          type: TAG
+          value: void
+          amount: 1
+          lore: []
+        apex:
+          slot: 14
+          material: NAME_TAG
+          display: <#F472B6>APEX
+          price: 200000
+          type: TAG
+          value: apex
+          amount: 1
+          lore: []
+    bundles:
+      slot: 24
+      material: BUNDLE
+      display: <gradient:#FBBF24:#F472B6><bold>BUNDLES</bold></gradient>
+      lore:
+      - <gray>High-value mixed reward packs.
+      - <yellow>Click to browse.
+      offers:
+        starter_plus:
+          slot: 10
+          material: BUNDLE
+          display: <#67E8F9>Starter+ Bundle
+          price: 250000
+          type: COMMAND
+          value: vupebundle %player% starter_plus
+          amount: 1
+          lore: []
+        grinder:
+          slot: 11
+          material: BUNDLE
+          display: <#22D3EE>Grinder Bundle
+          price: 750000
+          type: COMMAND
+          value: vupebundle %player% grinder
+          amount: 1
+          lore: []
+        overdrive:
+          slot: 12
+          material: BUNDLE
+          display: <#F472B6>Overdrive Bundle
+          price: 2000000
+          type: COMMAND
+          value: vupebundle %player% overdrive
+          amount: 1
+          lore: []

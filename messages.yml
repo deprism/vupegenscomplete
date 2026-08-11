@@ -1,0 +1,8 @@
+messages:
+  no-permission: "<red>You do not have permission."
+  player-only: "<red>This command is player-only."
+  feature-disabled: "<red>That Vupe feature is disabled."
+  setup-incomplete: "<yellow>Vupe setup is not complete yet. An admin can use <white>/vupe setup status<yellow>."
+  balance: "<gray>Balance: <green>$%money%"
+  crystals: "<gray>Crystals: <#8B5CF6>%crystals%"
+  gold: "<gray>Gold: <gold>%gold%"

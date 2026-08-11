@@ -1,0 +1,23 @@
+tablist:
+  enabled: true
+  refresh-ticks: 40
+
+  header:
+    - ""
+    - "<gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient>"
+    - "<gray>Generators • Economy • Progression"
+    - ""
+
+  footer:
+    - ""
+    - "<gray>Online: <white>%online%<dark_gray>/<white>%max_players% <dark_gray>• <gray>Ping: <white>%ping%ms"
+    - "<gray>Money: <green>$%money% <dark_gray>• <gray>Crystals: <#8B5CF6>%crystals%"
+    - "<#22D3EE>%server_address%"
+    - ""
+
+  # This is the name shown for each player inside the vanilla TAB player list.
+  player-name-format: "%rank% <white>%player%"
+
+  # Available header/footer placeholders:
+  # %player% %online% %max_players% %ping% %money% %crystals% %gold%
+  # %rank% %level% %prestige% %server_address%

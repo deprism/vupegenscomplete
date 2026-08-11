@@ -1,0 +1,28 @@
+discord:
+  enabled: false
+  token: "CHANGE_ME_DISCORD_BOT_TOKEN"
+  guild-id: "CHANGE_ME_GUILD_ID"
+  channels:
+    minecraft-chat: "CHANGE_ME_CHANNEL_ID"
+    suggestions: "CHANGE_ME_CHANNEL_ID"
+    tickets-category: "CHANGE_ME_CATEGORY_ID"
+    ticket-logs: "CHANGE_ME_CHANNEL_ID"
+  roles:
+    verified: "CHANGE_ME_ROLE_ID"
+    support: "CHANGE_ME_ROLE_ID"
+  features:
+    account-linking: true
+    chat-relay: true
+    suggestions: true
+    tickets: true
+  memory:
+    light-cache: true
+
+  reaction-roles:
+    enabled: false
+    mappings:
+      blue: {message-id: "CHANGE_ME_MESSAGE_ID", emoji: "📘", role-id: "CHANGE_ME_ROLE_ID"}
+      orange: {message-id: "CHANGE_ME_MESSAGE_ID", emoji: "📙", role-id: "CHANGE_ME_ROLE_ID"}
+      green: {message-id: "CHANGE_ME_MESSAGE_ID", emoji: "📗", role-id: "CHANGE_ME_ROLE_ID"}
+      red: {message-id: "CHANGE_ME_MESSAGE_ID", emoji: "📕", role-id: "CHANGE_ME_ROLE_ID"}
+      yellow: {message-id: "CHANGE_ME_MESSAGE_ID", emoji: "📒", role-id: "CHANGE_ME_ROLE_ID"}

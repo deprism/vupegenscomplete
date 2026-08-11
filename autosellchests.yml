@@ -1,0 +1,21 @@
+autosell-chests:
+  enabled: true
+  base-item:
+    material: CHEST
+    name: "<gradient:#22D3EE:#8B5CF6><bold>AUTOSELL CHEST</bold></gradient>"
+    lore:
+      - "<gray>Automatically converts sellable contents into stored earnings."
+      - "<gray>Right-click after placement to manage it."
+      - ""
+      - "<#22D3EE>Vupe Automation"
+  maximum-per-player: 25
+  holograms: true
+  hologram-height: 1.6
+  tiers:
+    1: {interval-seconds: 5, multiplier: 1.00, upgrade-cost: 250000}
+    2: {interval-seconds: 4, multiplier: 1.05, upgrade-cost: 1000000}
+    3: {interval-seconds: 3, multiplier: 1.10, upgrade-cost: 5000000}
+    4: {interval-seconds: 2, multiplier: 1.20, upgrade-cost: 25000000}
+    5: {interval-seconds: 1, multiplier: 1.35, upgrade-cost: 0}
+  gui:
+    title: "<gradient:#22D3EE:#8B5CF6><bold>AUTOSELL CHEST</bold></gradient>"

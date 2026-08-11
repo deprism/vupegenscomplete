@@ -1,0 +1,53 @@
+boxes:
+  item:
+    material: ENDER_CHEST
+    name: "<gradient:#8B5CF6:#22D3EE><bold>%rarity% %type% Box</bold></gradient>"
+  types:
+    money:
+      common: {min: 10000, max: 50000}
+      uncommon: {min: 50000, max: 150000}
+      rare: {min: 150000, max: 500000}
+      epic: {min: 500000, max: 1500000}
+      legendary: {min: 1500000, max: 5000000}
+    crystals:
+      common: {min: 5, max: 20}
+      uncommon: {min: 20, max: 50}
+      rare: {min: 50, max: 125}
+      epic: {min: 125, max: 300}
+      legendary: {min: 300, max: 750}
+
+lootboxes:
+  enabled: true
+  definitions:
+    starter:
+      display: "<#67E8F9><bold>Starter Lootbox</bold>"
+      rolls: 3
+      rewards:
+        - {weight: 35, type: MONEY, min: 50000, max: 150000}
+        - {weight: 25, type: CRYSTALS, min: 25, max: 75}
+        - {weight: 15, type: CRATE_KEY, value: vote, amount: 1}
+        - {weight: 15, type: GENERATOR, value: cobalt, amount: 1}
+        - {weight: 10, type: GEN_SLOTS, amount: 3}
+    prosperous:
+      display: "<#A78BFA><bold>Prosperous Lootbox</bold>"
+      rolls: 4
+      rewards:
+        - {weight: 25, type: MONEY, min: 250000, max: 1000000}
+        - {weight: 20, type: CRYSTALS, min: 75, max: 250}
+        - {weight: 15, type: CRATE_KEY, value: cipher, amount: 1}
+        - {weight: 15, type: GENERATOR, value: amethyst, amount: 1}
+        - {weight: 10, type: GEN_SLOTS, amount: 5}
+        - {weight: 10, type: SELL_MULTIPLIER, amount: 0.10}
+        - {weight: 5, type: SELL_BOOSTER, amount: 2.0, duration-minutes: 30}
+    vupe:
+      display: "<gradient:#8B5CF6:#F472B6><bold>Vupe Lootbox</bold></gradient>"
+      rolls: 5
+      rewards:
+        - {weight: 20, type: MONEY, min: 1000000, max: 5000000}
+        - {weight: 18, type: CRYSTALS, min: 250, max: 750}
+        - {weight: 15, type: CRATE_KEY, value: vupe, amount: 1}
+        - {weight: 15, type: GENERATOR, value: zenith, amount: 1}
+        - {weight: 10, type: GEN_SLOTS, amount: 15}
+        - {weight: 10, type: SELL_MULTIPLIER, amount: 0.25}
+        - {weight: 7, type: SELL_BOOSTER, amount: 2.5, duration-minutes: 45}
+        - {weight: 5, type: GOLD, amount: 250}

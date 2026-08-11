@@ -1,0 +1,31 @@
+auction-house:
+  enabled: true
+  title: <gradient:#FBBF24:#F472B6><bold>VUPE AUCTION HOUSE</bold></gradient>
+  mine-title: <#22D3EE><bold>YOUR AUCTIONS</bold>
+  claim-title: <#34D399><bold>CLAIMED WINS</bold>
+  expired-title: <#A78BFA><bold>EXPIRED ITEMS</bold>
+  bid-title: <gradient:#FBBF24:#F472B6><bold>PLACE BID</bold></gradient>
+  page-size: 21
+  minimum-starting-bid: 1000
+  maximum-bid: 1000000000000000
+  maximum-hours: 12
+  default-hours: 12
+  maximum-listings-per-player: 14
+  minimum-bid-increase-percent: 20.0
+  anti-snipe:
+    enabled: true
+    trigger-seconds: 30
+    extend-seconds: 30
+  expiry-check-ticks: 20
+  claim-notify-on-join: true
+  sounds:
+    bid: BLOCK_NOTE_BLOCK_PLING
+    outbid: ENTITY_VILLAGER_NO
+    sold: ENTITY_PLAYER_LEVELUP
+    claim: ENTITY_EXPERIENCE_ORB_PICKUP
+  sort-default: ENDING_SOON
+  allowed-sorts:
+  - ENDING_SOON
+  - NEWEST
+  - HIGHEST_BID
+  - MOST_BIDS

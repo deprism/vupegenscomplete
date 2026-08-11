@@ -1,0 +1,31 @@
+fishing:
+  catch-cooldown-ticks: 5
+  cooler:
+    base-slots: 9
+    upgrade-cost-base: 25000
+    upgrade-cost-multiplier: 2.0
+    max-slots: 54
+  rod:
+    material: FISHING_ROD
+    name: "<#22D3EE><bold>Vupe Rod</bold>"
+    base-luck: 0
+    max-level: 100
+  catches:
+    COD: {weight: 40, money: 250, xp: 1}
+    SALMON: {weight: 28, money: 400, xp: 2}
+    TROPICAL_FISH: {weight: 15, money: 900, xp: 4}
+    PUFFERFISH: {weight: 10, money: 1200, xp: 5}
+    HEART_OF_THE_SEA: {weight: 2, money: 15000, xp: 25}
+
+  enchants:
+    generosity: {max: 50, base-cost: 30, growth: 1.08, chance-per-level: 0.10, description: "Chance to give all online players crystals."}
+    lure: {max: 100, base-cost: 40, growth: 1.07, chance-per-level: 0.125, description: "Improves catch rarity."}
+    bait: {max: 2000, base-cost: 10, growth: 1.002, chance-per-level: 0.02, description: "Chance to catch extra fish."}
+    processor: {max: 80, base-cost: 20, growth: 1.08, chance-per-level: 0.25, description: "Increases fish value/size."}
+    intelligence: {max: 100, base-cost: 10, growth: 1.08, chance-per-level: 0.50, description: "Chance to earn progression XP."}
+    treasurefinder: {max: 100, base-cost: 25, growth: 1.07, chance-per-level: 0.15, description: "Chance to find a money/crystal box."}
+    income: {max: 100, base-cost: 15, growth: 1.04, chance-per-level: 0.25, description: "Chance for a cash bonus."}
+    librarian: {max: 100, base-cost: 10, growth: 1.08, chance-per-level: 0.10, description: "Chance to earn a full level-worth of XP."}
+    cratefinder: {max: 250, base-cost: 25, growth: 1.04, chance-per-level: 0.04, description: "Chance to find a Vote key."}
+    autosell: {max: 1, base-cost: 15000, growth: 1.0, chance-per-level: 100, description: "Automatically sells the cooler every minute."}
+    skill: {max: 5, base-cost: 10000, growth: 1.75, chance-per-level: 0, description: "Improves fishing speed."}

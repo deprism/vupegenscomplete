@@ -1,0 +1,262 @@
+donor-ranks:
+  echo:
+    display: <#67E8F9>Echo
+    prefix: '<dark_gray>[<#67E8F9>Echo<dark_gray>] '
+    slots-bonus: 15
+    sell-multiplier-bonus: 0.15
+    vaults: 3
+    plot-limit: 1
+    permissions:
+    - vupe.nick
+    - vupe.chat.color
+    - vupe.kit.echo
+    weight: 100
+    prefix-priority: 100
+    plain-prefix: '&b&lECHO &8» &f'
+  cipher:
+    display: <#22D3EE>Cipher
+    prefix: '<dark_gray>[<#22D3EE>Cipher<dark_gray>] '
+    slots-bonus: 30
+    sell-multiplier-bonus: 0.35
+    vaults: 5
+    plot-limit: 2
+    permissions:
+    - vupe.nick
+    - vupe.fly
+    - vupe.workbench
+    - vupe.kit.cipher
+    weight: 120
+    prefix-priority: 120
+    plain-prefix: '&3&lCIPHER &8» &f'
+  phantom:
+    display: <#F472B6>Phantom
+    prefix: '<dark_gray>[<#F472B6>Phantom<dark_gray>] '
+    slots-bonus: 55
+    sell-multiplier-bonus: 0.6
+    vaults: 8
+    plot-limit: 3
+    permissions:
+    - vupe.home
+    - vupe.invsee
+    - vupe.kit.phantom
+    weight: 140
+    prefix-priority: 140
+    plain-prefix: '&d&lPHANTOM &8» &f'
+  titan:
+    display: <#A78BFA>Titan
+    prefix: '<dark_gray>[<#A78BFA>Titan<dark_gray>] '
+    slots-bonus: 85
+    sell-multiplier-bonus: 1.0
+    vaults: 12
+    plot-limit: 5
+    permissions:
+    - vupe.back
+    - vupe.skull
+    - vupe.speed
+    - vupe.kit.titan
+    weight: 160
+    prefix-priority: 160
+    plain-prefix: '&5&lTITAN &8» &f'
+  vupeplus:
+    display: <gradient:#8B5CF6:#F472B6><bold>Vupe+</bold></gradient>
+    prefix: '<dark_gray>[<gradient:#8B5CF6:#F472B6><bold>Vupe+</bold></gradient><dark_gray>] '
+    slots-bonus: 120
+    sell-multiplier-bonus: 1.5
+    vaults: 16
+    plot-limit: 8
+    permissions:
+    - vupe.kit.vupeplus
+    weight: 180
+    prefix-priority: 180
+    plain-prefix: '&d&lVUPE+ &8» &f'
+progression:
+- id: rookie
+  display: <#BAE6FD>Rookie
+  cost: 10000
+  gen-slots: 0
+  sell-bonus: 0.0
+  plot-limit: 1
+  rewards:
+  - type: CRYSTALS
+    amount: 250
+- id: scout
+  display: <#A5F3FC>Scout
+  cost: 50000
+  gen-slots: 1
+  sell-bonus: 0.0
+  plot-limit: 1
+  rewards: []
+- id: runner
+  display: <#67E8F9>Runner
+  cost: 250000
+  gen-slots: 2
+  sell-bonus: 0.05
+  plot-limit: 1
+  rewards:
+  - type: CRYSTALS
+    amount: 750
+- id: striker
+  display: <#22D3EE>Striker
+  cost: 750000
+  gen-slots: 3
+  sell-bonus: 0.05
+  plot-limit: 1
+  rewards: []
+- id: vanguard
+  display: <#38BDF8>Vanguard
+  cost: 2500000
+  gen-slots: 4
+  sell-bonus: 0.08
+  plot-limit: 2
+  rewards:
+  - type: CRYSTALS
+    amount: 1250
+  - type: GENERATOR
+    value: cobalt
+    amount: 1
+- id: sentinel
+  display: <#818CF8>Sentinel
+  cost: 10000000
+  gen-slots: 5
+  sell-bonus: 0.1
+  plot-limit: 2
+  rewards:
+  - type: CRATE_KEY
+    value: vote
+    amount: 1
+  sellwand: 2.0
+- id: warden
+  display: <#A78BFA>Warden
+  cost: 50000000
+  gen-slots: 7
+  sell-bonus: 0.1
+  plot-limit: 2
+  rewards:
+  - type: CRYSTALS
+    amount: 1750
+- id: ascendant
+  display: <#C084FC>Ascendant
+  cost: 250000000
+  gen-slots: 10
+  sell-bonus: 0.12
+  plot-limit: 2
+  rewards: []
+- id: paragon
+  display: <#D8B4FE>Paragon
+  cost: 1000000000
+  gen-slots: 12
+  sell-bonus: 0.15
+  plot-limit: 2
+  rewards:
+  - type: CRYSTALS
+    amount: 2250
+- id: sovereign
+  display: <#E879F9>Sovereign
+  cost: 5000000000
+  gen-slots: 15
+  sell-bonus: 0.18
+  plot-limit: 3
+  rewards:
+  - type: GENERATOR
+    value: amethyst
+    amount: 2
+- id: mythic
+  display: <#F0ABFC>Mythic
+  cost: 25000000000
+  gen-slots: 20
+  sell-bonus: 0.2
+  plot-limit: 3
+  rewards:
+  - type: CRYSTALS
+    amount: 2750
+  - type: CRATE_KEY
+    value: titan
+    amount: 2
+  sellwand: 2.5
+- id: celestial
+  display: <#F472B6>Celestial
+  cost: 100000000000
+  gen-slots: 25
+  sell-bonus: 0.22
+  plot-limit: 3
+  rewards: []
+- id: transcendent
+  display: <#FB7185>Transcendent
+  cost: 500000000000
+  gen-slots: 30
+  sell-bonus: 0.25
+  plot-limit: 4
+  rewards:
+  - type: CRYSTALS
+    amount: 3250
+- id: apex
+  display: <#F43F5E>Apex
+  cost: 2500000000000
+  gen-slots: 40
+  sell-bonus: 0.3
+  plot-limit: 4
+  rewards: []
+- id: riftborn
+  display: <gradient:#8B5CF6:#22D3EE>Riftborn</gradient>
+  cost: 10000000000000
+  gen-slots: 50
+  sell-bonus: 0.35
+  plot-limit: 5
+  rewards:
+  - type: CRYSTALS
+    amount: 3750
+  - type: GENERATOR
+    value: ion
+    amount: 3
+- id: nebula
+  display: <gradient:#C084FC:#F472B6>Nebula</gradient>
+  cost: 50000000000000
+  gen-slots: 60
+  sell-bonus: 0.4
+  plot-limit: 5
+  rewards:
+  - type: CRATE_KEY
+    value: titan
+    amount: 3
+  sellwand: 3.0
+- id: quantum
+  display: <gradient:#22D3EE:#34D399>Quantum</gradient>
+  cost: 250000000000000
+  gen-slots: 75
+  sell-bonus: 0.45
+  plot-limit: 6
+  rewards:
+  - type: CRYSTALS
+    amount: 4250
+- id: eclipse
+  display: <gradient:#6366F1:#F472B6>Eclipse</gradient>
+  cost: 1000000000000000
+  gen-slots: 90
+  sell-bonus: 0.5
+  plot-limit: 7
+  rewards: []
+- id: zenith
+  display: <gradient:#FBBF24:#F472B6>Zenith</gradient>
+  cost: 5000000000000000
+  gen-slots: 110
+  sell-bonus: 0.6
+  plot-limit: 8
+  rewards:
+  - type: CRYSTALS
+    amount: 4750
+- id: singularity
+  display: <gradient:#8B5CF6:#F43F5E><bold>Singularity</bold></gradient>
+  cost: 25000000000000000
+  gen-slots: 150
+  sell-bonus: 0.75
+  plot-limit: 10
+  rewards:
+  - type: GENERATOR
+    value: zenith
+    amount: 4
+  - type: CRATE_KEY
+    value: vupe
+    amount: 3
+  sellwand: 3.4
+leveling:
+  use-levels-yml: true

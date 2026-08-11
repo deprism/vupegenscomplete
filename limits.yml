@@ -1,0 +1,15 @@
+limits:
+  per-player:
+    hoppers:
+      default: 25
+      max: 100
+      upgrade-cost-per-current-slot: 10000
+    chests:
+      default: 50
+      max: 250
+      upgrade-cost-per-current-slot: 10000
+  ownership-protection: true
+  generator-drop-compression:
+    enabled: true
+    manual-command-only: true
+    minimum-stack: 64

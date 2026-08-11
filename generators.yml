@@ -1,0 +1,38 @@
+generators:
+  output-mode: PHYSICAL
+  merge-nearby-drops: true
+  per-player-default-slots: 25
+  prevent-explosions: true
+  only-owner-breaks: true
+  upgrade:
+    require-sneak-right-click: true
+  types:
+    scrap: {block: COARSE_DIRT, drop: DEAD_BUSH, display: "Scrap", color: "#94A3B8", sell: 10, upgrade: 1000, next: copper}
+    copper: {block: PODZOL, drop: BROWN_MUSHROOM, display: "Copper", color: "#B87333", sell: 30, upgrade: 2250, next: amber}
+    amber: {block: MOSSY_COBBLESTONE, drop: FERN, display: "Amber", color: "#F59E0B", sell: 25, upgrade: 6250, next: quartz}
+    quartz: {block: MOSSY_STONE_BRICKS, drop: KELP, display: "Quartz", color: "#E2E8F0", sell: 40, upgrade: 15000, next: cobalt}
+    cobalt: {block: DEAD_BUBBLE_CORAL_BLOCK, drop: SEAGRASS, display: "Cobalt", color: "#22D3EE", sell: 100, upgrade: 32500, next: ruby}
+    ruby: {block: DEAD_BRAIN_CORAL_BLOCK, drop: TALL_GRASS, display: "Ruby", color: "#FB7185", sell: 125, upgrade: 75000, next: topaz}
+    topaz: {block: POLISHED_BLACKSTONE, drop: LARGE_FERN, display: "Topaz", color: "#FBBF24", sell: 150, upgrade: 135000, next: jade}
+    jade: {block: BLACKSTONE, drop: LILY_PAD, display: "Jade", color: "#34D399", sell: 200, upgrade: 200000, next: sapphire}
+    sapphire: {block: NETHERITE_BLOCK, drop: VINE, display: "Sapphire", color: "#38BDF8", sell: 275, upgrade: 275000, next: amethyst}
+    amethyst: {block: RED_CONCRETE, drop: RED_TULIP, display: "Amethyst", color: "#C084FC", sell: 350, upgrade: 500000, next: obsidian}
+    obsidian: {block: BLACK_CONCRETE, drop: POPPY, display: "Obsidian", color: "#64748B", sell: 450, upgrade: 1000000, next: prism}
+    prism: {block: RED_WOOL, drop: ROSE_BUSH, display: "Prism", color: "#67E8F9", sell: 600, upgrade: 2500000, next: neon}
+    neon: {block: RED_MUSHROOM_BLOCK, drop: RED_MUSHROOM, display: "Neon", color: "#22D3EE", sell: 750, upgrade: 7500000, next: flux}
+    flux: {block: YELLOW_CONCRETE, drop: DANDELION, display: "Flux", color: "#A5F3FC", sell: 1000, upgrade: 17500000, next: ion}
+    ion: {block: WHITE_CONCRETE, drop: OXEYE_DAISY, display: "Ion", color: "#818CF8", sell: 1250, upgrade: 35000000, next: pulse}
+    pulse: {block: LIGHT_GRAY_CONCRETE, drop: WHITE_TULIP, display: "Pulse", color: "#A78BFA", sell: 1500, upgrade: 75000000, next: arc}
+    arc: {block: CYAN_CONCRETE, drop: CORNFLOWER, display: "Arc", color: "#60A5FA", sell: 1750, upgrade: 125000000, next: plasma}
+    plasma: {block: QUARTZ_BLOCK, drop: LILY_OF_THE_VALLEY, display: "Plasma", color: "#F472B6", sell: 2250, upgrade: 200000000, next: rift}
+    rift: {block: PURPUR_BLOCK, drop: ALLIUM, display: "Rift", color: "#C084FC", sell: 3000, upgrade: 350000000, next: nova}
+    nova: {block: ORANGE_CONCRETE, drop: ORANGE_TULIP, display: "Nova", color: "#FB7185", sell: 4000, upgrade: 600000000, next: nebula}
+    nebula: {block: GREEN_CONCRETE, drop: SEA_PICKLE, display: "Nebula", color: "#8B5CF6", sell: 5400, upgrade: 900000000, next: quantum}
+    quantum: {block: LIME_CONCRETE, drop: SUGAR_CANE, display: "Quantum", color: "#7C3AED", sell: 6700, upgrade: 1200000000, next: eclipse}
+    eclipse: {block: POLISHED_DIORITE, drop: AZURE_BLUET, display: "Eclipse", color: "#6366F1", sell: 8000, upgrade: 1750000000, next: void}
+    void: {block: PURPLE_CONCRETE, drop: ALLIUM, display: "Void", color: "#8B5CF6", sell: 9700, upgrade: 2500000000, next: zenith}
+    zenith: {block: PURPLE_STAINED_GLASS, drop: PEONY, display: "Zenith", color: "#A78BFA", sell: 12200, upgrade: 4250000000, next: singularity}
+    singularity: {block: LIGHT_BLUE_CONCRETE, drop: BLUE_ORCHID, display: "Singularity", color: "#D8B4FE", sell: 14500, upgrade: 7500000000, next: vupe_core}
+    vupe_core: {block: PINK_CONCRETE, drop: LILAC, display: "Vupe Core", color: "#F472B6", sell: 17250, upgrade: 0, next: ""}
+    relic: {block: BEDROCK, drop: NETHER_STAR, display: "Relic Core", color: "#22D3EE", sell: 25000, upgrade: 0, next: ""}
+    radiant: {block: SHROOMLIGHT, drop: END_CRYSTAL, display: "Radiant Core", color: "#F472B6", sell: 35000, upgrade: 0, next: ""}

@@ -1,0 +1,525 @@
+native-shop:
+  title: <gradient:#8B5CF6:#22D3EE><bold>VUPE SHOP</bold></gradient>
+  category-title: <gradient:#8B5CF6:#22D3EE><bold>VUPE SHOP</bold></gradient> <dark_gray>•
+    <white>%category%
+  quantity-title: <gradient:#22D3EE:#8B5CF6><bold>%mode%</bold></gradient> <dark_gray>•
+    <white>%item%
+  page-size: 28
+  quick-amount: 64
+  categories:
+    blocks:
+      slot: 10
+      icon: GRASS_BLOCK
+      display: <#94A3B8><bold>BLOCKS</bold>
+      lore:
+      - <gray>Original Elestra block catalog,
+      - <gray>expanded into paginated Vupe shopping.
+      dynamic-generators: false
+      items:
+      - material: GRASS_BLOCK
+        buy: 1.0
+        sell: 0.0
+      - material: DIRT
+        buy: 1.0
+        sell: 0.0
+      - material: STONE
+        buy: 1.0
+        sell: 0.0
+      - material: COBBLESTONE
+        buy: 1.0
+        sell: 0.0
+      - material: GRANITE
+        buy: 1.0
+        sell: 0.0
+      - material: DIORITE
+        buy: 1.0
+        sell: 0.0
+      - material: GRAVEL
+        buy: 1.0
+        sell: 0.0
+      - material: SAND
+        buy: 1.0
+        sell: 0.0
+      - material: RED_SAND
+        buy: 1.0
+        sell: 0.0
+      - material: PRISMARINE
+        buy: 1.0
+        sell: 0.0
+      - material: PRISMARINE_BRICKS
+        buy: 1.0
+        sell: 0.0
+      - material: DARK_PRISMARINE
+        buy: 1.0
+        sell: 0.0
+      - material: SEA_LANTERN
+        buy: 1.0
+        sell: 0.0
+      - material: BRICK_BLOCK
+        buy: 1.0
+        sell: 0.0
+      - material: OAK_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: SPRUCE_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: BIRCH_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: JUNGLE_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: ACACIA_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: DARK_OAK_LOG
+        buy: 1.0
+        sell: 0.0
+      - material: ICE_BLOCK
+        buy: 1.0
+        sell: 0.0
+      - material: PURPUR_PILLAR
+        buy: 1.0
+        sell: 0.0
+      - material: NETHER_BRICKS
+        buy: 1.0
+        sell: 0.0
+      - material: RED_NETHER_BRICKS
+        buy: 1.0
+        sell: 0.0
+      - material: QUARTZ_BLOCK
+        buy: 1.0
+        sell: 0.0
+      - material: GLOWSTONE
+        buy: 1.0
+        sell: 0.0
+      - material: SNOW_BLOCK
+        buy: 1.0
+        sell: 0.0
+      - material: WHITE_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: ORANGE_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: MAGENTA_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_BLUE_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: YELLOW_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: LIME_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: PINK_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: GRAY_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_GRAY_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: CYAN_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: PURPLE_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: BLUE_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: BROWN_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: GREEN_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: RED_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: BLACK_CONCRETE
+        buy: 1.0
+        sell: 0.0
+      - material: WHITE_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: ORANGE_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: MAGENTA_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_BLUE_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: YELLOW_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: LIME_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: PINK_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: GRAY_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_GRAY_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: CYAN_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: PURPLE_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: BLUE_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: BROWN_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: GREEN_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: RED_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: BLACK_STAINED_GLASS
+        buy: 1.0
+        sell: 0.0
+      - material: WHITE_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: ORANGE_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: MAGENTA_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_BLUE_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: YELLOW_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: LIME_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: PINK_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: GRAY_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: LIGHT_GRAY_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: CYAN_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: PURPLE_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: BLUE_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: BROWN_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: GREEN_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: RED_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: BLACK_TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+      - material: TERRACOTTA
+        buy: 1.0
+        sell: 0.0
+    equipment:
+      slot: 11
+      icon: DIAMOND_PICKAXE
+      display: <#22D3EE><bold>TOOLS & ARMOR</bold>
+      lore:
+      - <gray>Tools and armor from the original shop.
+      dynamic-generators: false
+      items:
+      - material: STONE_SWORD
+        buy: 256.0
+        sell: 128.0
+      - material: STONE_AXE
+        buy: 256.0
+        sell: 128.0
+      - material: STONE_PICKAXE
+        buy: 256.0
+        sell: 128.0
+      - material: STONE_SHOVEL
+        buy: 256.0
+        sell: 128.0
+      - material: IRON_SWORD
+        buy: 180.0
+        sell: 90.0
+      - material: IRON_AXE
+        buy: 180.0
+        sell: 90.0
+      - material: IRON_PICKAXE
+        buy: 180.0
+        sell: 90.0
+      - material: IRON_SHOVEL
+        buy: 180.0
+        sell: 90.0
+      - material: GOLDEN_SWORD
+        buy: 180.0
+        sell: 90.0
+      - material: GOLDEN_AXE
+        buy: 180.0
+        sell: 90.0
+      - material: GOLDEN_PICKAXE
+        buy: 180.0
+        sell: 90.0
+      - material: GOLDEN_SHOVEL
+        buy: 180.0
+        sell: 90.0
+      - material: DIAMOND_SWORD
+        buy: 720.0
+        sell: 360.0
+      - material: DIAMOND_AXE
+        buy: 720.0
+        sell: 360.0
+      - material: DIAMOND_PICKAXE
+        buy: 720.0
+        sell: 360.0
+      - material: DIAMOND_SHOVEL
+        buy: 720.0
+        sell: 360.0
+      - material: LEATHER_HELMET
+        buy: 256.0
+        sell: 128.0
+      - material: LEATHER_CHESTPLATE
+        buy: 256.0
+        sell: 128.0
+      - material: LEATHER_LEGGINGS
+        buy: 256.0
+        sell: 128.0
+      - material: LEATHER_BOOTS
+        buy: 256.0
+        sell: 128.0
+      - material: IRON_HELMET
+        buy: 300.0
+        sell: 150.0
+      - material: IRON_CHESTPLATE
+        buy: 480.0
+        sell: 240.0
+      - material: IRON_LEGGINGS
+        buy: 420.0
+        sell: 210.0
+      - material: IRON_BOOTS
+        buy: 240.0
+        sell: 120.0
+      - material: GOLDEN_HELMET
+        buy: 300.0
+        sell: 150.0
+      - material: GOLDEN_CHESTPLATE
+        buy: 480.0
+        sell: 240.0
+      - material: GOLDEN_LEGGINGS
+        buy: 420.0
+        sell: 210.0
+      - material: GOLDEN_BOOTS
+        buy: 240.0
+        sell: 120.0
+      - material: DIAMOND_HELMET
+        buy: 1200.0
+        sell: 600.0
+      - material: DIAMOND_CHESTPLATE
+        buy: 1920.0
+        sell: 960.0
+      - material: DIAMOND_LEGGINGS
+        buy: 1680.0
+        sell: 840.0
+      - material: DIAMOND_BOOTS
+        buy: 960.0
+        sell: 480.0
+    foraging:
+      slot: 12
+      icon: OAK_LOG
+      display: <#34D399><bold>FORAGING</bold>
+      lore:
+      - <gray>Saplings, wood and nature supplies.
+      dynamic-generators: false
+      items:
+      - material: OAK_SAPLING
+        buy: 20.0
+        sell: 10.0
+      - material: SPRUCE_SAPLING
+        buy: 20.0
+        sell: 10.0
+      - material: BIRCH_SAPLING
+        buy: 20.0
+        sell: 10.0
+      - material: JUNGLE_SAPLING
+        buy: 20.0
+        sell: 10.0
+      - material: ACACIA_SAPLING
+        buy: 20.0
+        sell: 10.0
+      - material: DARK_OAK_SAPLING
+        buy: 20.0
+        sell: 10.0
+    generators:
+      slot: 13
+      icon: RESPAWN_ANCHOR
+      display: <#F472B6><bold>GENERATORS</bold>
+      lore:
+      - <gray>All configured Vupe generator cores.
+      - <gray>Generated dynamically from generators.yml.
+      dynamic-generators: true
+      items: []
+    redstone:
+      slot: 14
+      icon: REDSTONE
+      display: <#EF4444><bold>REDSTONE</bold>
+      lore:
+      - <gray>Automation and redstone components.
+      dynamic-generators: false
+      items:
+      - material: REDSTONE
+        buy: 120.0
+        sell: 60.0
+      - material: REPEATER
+        buy: 160.0
+        sell: 80.0
+      - material: COMPARATOR
+        buy: 160.0
+        sell: 80.0
+      - material: PISTON
+        buy: 200.0
+        sell: 100.0
+      - material: STICKY_PISTON
+        buy: 200.0
+        sell: 100.0
+      - material: OBSERVER
+        buy: 400.0
+        sell: 200.0
+      - material: HOPPER
+        buy: 1000.0
+        sell: 500.0
+    ores:
+      slot: 15
+      icon: DIAMOND
+      display: <#67E8F9><bold>ORES</bold>
+      lore:
+      - <gray>Original ore/mineral economy.
+      dynamic-generators: false
+      items:
+      - material: COAL
+        buy: 20.0
+        sell: 10.0
+      - material: IRON_INGOT
+        buy: 60.0
+        sell: 30.0
+      - material: GOLD_INGOT
+        buy: 60.0
+        sell: 30.0
+      - material: LAPIS_LAZULI
+        buy: 120.0
+        sell: 60.0
+      - material: REDSTONE
+        buy: 120.0
+        sell: 60.0
+      - material: DIAMOND
+        buy: 240.0
+        sell: 120.0
+      - material: EMERALD
+        buy: 240.0
+        sell: 120.0
+    misc:
+      slot: 16
+      icon: NAME_TAG
+      display: <#FBBF24><bold>MISCELLANEOUS</bold>
+      lore:
+      - <gray>Utility and special items.
+      dynamic-generators: false
+      items:
+      - material: WATER_BUCKET
+        buy: 2.0
+        sell: 1.0
+      - material: LAVA_BUCKET
+        buy: 2.0
+        sell: 1.0
+      - material: NAME_TAG
+        buy: 1024.0
+        sell: 512.0
+      - material: SOUL_SAND
+        buy: 512.0
+        sell: 256.0
+      - material: ENCHANTING_TABLE
+        buy: 2048.0
+        sell: 0.0
+      - material: ANVIL
+        buy: 1024.0
+        sell: 0.0
+      - material: BOOKSHELF
+        buy: 1024.0
+        sell: 0.0
+      - material: BOOK
+        buy: 128.0
+        sell: 0.0
+      - material: EXPERIENCE_BOTTLE
+        buy: 768.0
+        sell: 0.0
+      - material: CHEST
+        buy: 1.0
+        sell: 0.0
+      - material: GOLDEN_APPLE
+        buy: 10000.0
+        sell: 0.0
+      - material: OAK_SIGN
+        buy: 512.0
+        sell: 0.0
+      - material: BONE_MEAL
+        buy: 512.0
+        sell: 0.0
+      - material: BEACON
+        buy: 69420.0
+        sell: 0.0
+shop:
+  title: <gradient:#8B5CF6:#22D3EE><bold>VUPE SHOP</bold></gradient>
+  generator-page-size: 45
+  sellwands:
+    2.0: 200
+    3.0: 350
+    5.0: 500
+    7.5: 750
+    10.0: 1000
+gold-store:
+  ranks:
+    echo: 500
+    cipher: 1000
+    phantom: 2500
+    titan: 5000
+    vupeplus: 10000
+  keys:
+    vote: 75
+    cipher: 150
+    phantom: 300
+    titan: 500
+    event: 250
+    vupe: 750
+  perks:
+    slots-5: 150
+    slots-15: 400
+    multiplier-0.10: 350
+    multiplier-0.25: 800
+autosell:
+  enabled: true
+  permission: ''
+  require-player-not-afk: true

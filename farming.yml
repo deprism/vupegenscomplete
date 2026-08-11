@@ -1,0 +1,70 @@
+farming:
+  world: farm
+  protect-unripe-crops: true
+  instant-replant: true
+  keep-farmland-moist: true
+  require-vupe-hoe: true
+
+  hoe:
+    material: DIAMOND_HOE
+    name: "<gradient:#8B5CF6:#22D3EE><bold>Vupe Harvester</bold></gradient>"
+    price: 1000
+    unbreakable: true
+
+  # Crop base values. Money is then affected by Fertility.
+  crops:
+    WHEAT: {money: 100, xp: 1}
+    CARROTS: {money: 110, xp: 1}
+    POTATOES: {money: 110, xp: 1}
+    BEETROOTS: {money: 125, xp: 2}
+    NETHER_WART: {money: 180, xp: 2}
+
+  # Recovered/rebuilt from the old server's Farmer's Hoe.
+  enchants:
+    fertility:
+      display: "<#34D399>Fertility"
+      max: 100
+      base-cost: 200
+      growth: 1.50
+      description: "Increases crop money."
+      money-per-level: 0.10
+
+    cratefinder:
+      display: "<#FBBF24>Crate Finder"
+      max: 500
+      base-cost: 200
+      growth: 1.05
+      description: "Chance to find an Event key."
+      chance-per-level-percent: 0.002
+      reward-crate: event
+      reward-keys: 1
+
+    crystalfinder:
+      display: "<#8B5CF6>Crystal Finder"
+      max: 250
+      base-cost: 200
+      growth: 1.02
+      description: "Chance to find crystals."
+      chance-per-level-percent: 0.10
+      min-crystals: 16
+      max-crystals: 64
+
+    knowledge:
+      display: "<#22D3EE>Knowledge"
+      max: 50
+      base-cost: 200
+      growth: 1.08
+      description: "Increases progression XP from farming."
+      xp-per-level: 0.05
+
+    harvesting:
+      display: "<#F472B6>Harvesting"
+      max: 1
+      fixed-cost: 100000
+      description: "Chance to harvest nearby mature crops."
+      radius: 3
+      chance-percent: 5.0
+
+  messages:
+    need-hoe: "<red>You need the Vupe Harvester. <gray>Use <white>/farming buy<gray>."
+    unripe: "<red>That crop is not fully grown."

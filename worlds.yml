@@ -1,0 +1,31 @@
+worlds:
+  auto-create:
+    enabled: false
+  spawn:
+    world: spawn
+    environment: NORMAL
+    pvp: false
+  plots:
+    world: vupeplots
+    backend: PLOTSQUARED
+    pvp: false
+    grant-basic-permissions: true
+    default-plot-limit: 1
+    auto-claim-command: plot auto
+    home-command: plot home
+  fishing:
+    world: fishing
+    environment: NORMAL
+    pvp: false
+  pvp:
+    world: pvp
+    environment: NORMAL
+    pvp: true
+  farm:
+    world: farm
+    environment: NORMAL
+    pvp: false
+  mine:
+    world: mine
+    environment: NORMAL
+    pvp: false

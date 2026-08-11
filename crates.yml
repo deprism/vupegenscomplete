@@ -1,0 +1,308 @@
+crates:
+  animation:
+    enabled: true
+    duration-ticks: 70
+    step-ticks: 3
+    sound: BLOCK_NOTE_BLOCK_PLING
+    finish-sound: UI_TOAST_CHALLENGE_COMPLETE
+    particles: true
+  definitions:
+    vote:
+      display: <white>Vote Crate
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_50k
+        weight: 35
+        type: MONEY
+        amount: 50000
+        display: <green>$50,000
+      - id: cash_100k
+        weight: 25
+        type: MONEY
+        amount: 100000
+        display: <green>$100,000
+      - id: crystals_25
+        weight: 20
+        type: CRYSTALS
+        amount: 25
+        display: <#8B5CF6>25 Crystals
+      - id: slots_2
+        weight: 12
+        type: GEN_SLOTS
+        amount: 2
+        display: <#F472B6>+2 Generator Slots
+      - id: cobalt
+        weight: 8
+        type: GENERATOR
+        value: cobalt
+        amount: 1
+        display: <#22D3EE>Cobalt Core
+      animation-style: QUICK
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+    cipher:
+      display: <#67E8F9>Cipher Crate
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_250k
+        weight: 25
+        type: MONEY
+        amount: 250000
+        display: <green>$250,000
+      - id: crystals_75
+        weight: 20
+        type: CRYSTALS
+        amount: 75
+        display: <#8B5CF6>75 Crystals
+      - id: slots_5
+        weight: 15
+        type: GEN_SLOTS
+        amount: 5
+        display: <#F472B6>+5 Slots
+      - id: multiplier
+        weight: 10
+        type: SELL_MULTIPLIER
+        amount: 0.1
+        display: <#A78BFA>+0.10 Sell
+      - id: amethyst
+        weight: 10
+        type: GENERATOR
+        value: amethyst
+        amount: 1
+        display: <#C084FC>Amethyst Core
+      animation-style: ROULETTE
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+    phantom:
+      display: <#F472B6>Phantom Crate
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_1m
+        weight: 25
+        type: MONEY
+        amount: 1000000
+        display: <green>$1,000,000
+      - id: crystals_150
+        weight: 20
+        type: CRYSTALS
+        amount: 150
+        display: <#8B5CF6>150 Crystals
+      - id: slots_10
+        weight: 15
+        type: GEN_SLOTS
+        amount: 10
+        display: <#F472B6>+10 Slots
+      - id: ion
+        weight: 15
+        type: GENERATOR
+        value: ion
+        amount: 1
+        display: <#818CF8>Ion Core
+      - id: autosell_1
+        weight: 7
+        type: AUTOSELL_CHEST
+        amount: 1
+        display: <#34D399>AutoSell Chest
+      - id: sellwand_25
+        weight: 6
+        type: SELLWAND
+        amount: 2.5
+        display: <gold>2.5x Sellwand
+      animation-style: WHEEL
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+    titan:
+      display: <#A78BFA>Titan Crate
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_2_5m
+        weight: 30
+        type: MONEY
+        amount: 2500000
+        display: <green>$2,500,000
+      - id: crystals_300
+        weight: 20
+        type: CRYSTALS
+        amount: 300
+        display: <#8B5CF6>300 Crystals
+      - id: slots_20
+        weight: 15
+        type: GEN_SLOTS
+        amount: 20
+        display: <#F472B6>+20 Slots
+      - id: nova
+        weight: 17
+        type: GENERATOR
+        value: nova
+        amount: 1
+        display: <#FB7185>Nova Core
+      - id: autosell_2
+        weight: 7
+        type: AUTOSELL_CHEST
+        amount: 2
+        display: <#34D399>2 AutoSell Chests
+      - id: sellwand_3
+        weight: 6
+        type: SELLWAND
+        amount: 3.0
+        display: <gold>3x Sellwand
+      - id: vupe_key
+        weight: 4
+        type: CRATE_KEY
+        value: vupe
+        amount: 1
+        display: <gradient:#8B5CF6:#F472B6>Vupe Key</gradient>
+      animation-style: CASINO
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+    event:
+      display: <yellow>Event Crate
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_100k
+        weight: 30
+        type: MONEY
+        amount: 100000
+        display: <green>$100,000
+      - id: cash_250k
+        weight: 20
+        type: MONEY
+        amount: 250000
+        display: <green>$250,000
+      - id: crystals_50
+        weight: 20
+        type: CRYSTALS
+        amount: 50
+        display: <#8B5CF6>50 Crystals
+      - id: cobalt
+        weight: 15
+        type: GENERATOR
+        value: cobalt
+        amount: 1
+        display: <#22D3EE>Cobalt Core
+      - id: obsidian
+        weight: 10
+        type: GENERATOR
+        value: obsidian
+        amount: 1
+        display: <#64748B>Obsidian Core
+      - id: autosell_3
+        weight: 6
+        type: AUTOSELL_CHEST
+        amount: 3
+        display: <#34D399>3 AutoSell Chests
+      - id: sellwand_4
+        weight: 5
+        type: SELLWAND
+        amount: 4.0
+        display: <gold>4x Sellwand
+      - id: titan_keys
+        weight: 4
+        type: CRATE_KEY
+        value: titan
+        amount: 2
+        display: <#A78BFA>2 Titan Keys
+      animation-style: COSMIC
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+    vupe:
+      display: <gradient:#8B5CF6:#F472B6><bold>Vupe Crate</bold></gradient>
+      key-material: PRISMARINE_SHARD
+      rewards:
+      - id: cash_5m
+        weight: 20
+        type: MONEY
+        amount: 5000000
+        display: <green>$5,000,000
+      - id: crystals_500
+        weight: 20
+        type: CRYSTALS
+        amount: 500
+        display: <#8B5CF6>500 Crystals
+      - id: slots_35
+        weight: 15
+        type: GEN_SLOTS
+        amount: 35
+        display: <#F472B6>+35 Slots
+      - id: multiplier_50
+        weight: 10
+        type: SELL_MULTIPLIER
+        amount: 0.5
+        display: <#A78BFA>+0.50 Sell
+      - id: zenith
+        weight: 12
+        type: GENERATOR
+        value: zenith
+        amount: 1
+        display: <#A78BFA>Zenith Core
+      - id: vupe_core
+        weight: 8
+        type: GENERATOR
+        value: vupe_core
+        amount: 1
+        display: <#F472B6>Vupe Core
+      - id: autosell_5
+        weight: 7
+        type: AUTOSELL_CHEST
+        amount: 5
+        display: <#34D399>5 AutoSell Chests
+      - id: sellwand_5
+        weight: 6
+        type: SELLWAND
+        amount: 5.0
+        display: <gold>5x Sellwand
+      - id: void_tag
+        weight: 4
+        type: TAG
+        value: void
+        amount: 1
+        display: <#8B5CF6>VOID Tag
+      - id: rank_vupeplus
+        weight: 1.5
+        type: RANK
+        value: vupeplus
+        amount: 1
+        display: <gradient:#8B5CF6:#F472B6><bold>Vupe+ Rank</bold></gradient>
+      animation-style: COSMIC
+      key-lore:
+      - <gray>Use this key at the matching Vupe crate.
+      - <gray>Left-click the crate to preview rewards.
+      - <gray>Right-click to open.
+      - ''
+      - <#22D3EE>VUPE MAX
+  open-cooldown-ms: 900
+  virtual-keys-first: true
+  max-mass-open: 25
+  preview:
+    enabled: true
+    page-size: 28
+  holograms:
+    enabled: true
+    height: 1.65
+    range: 20
+  keyall:
+    countdown-seconds:
+    - 15
+    - 5
+    - 2
+    - 1

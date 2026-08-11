@@ -1,0 +1,80 @@
+chat:
+  format: '%donor_prefix%%progression_prefix%<white>%player% <dark_gray>» <gray>%message%'
+  mention-sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  allow-colors-permission: vupe.chat.color
+afk:
+  auto-after-minutes: 8
+  announce: true
+  rewards: false
+playtime:
+  save-every-seconds: 120
+rules:
+- <#8B5CF6><bold>1.</bold> <gray>No cheating or exploiting.
+- <#8B5CF6><bold>2.</bold> <gray>No harassment, hate speech or malicious spam.
+- <#8B5CF6><bold>3.</bold> <gray>Do not abuse bugs; report them.
+- <#8B5CF6><bold>4.</bold> <gray>Use common sense and follow Minehut rules.
+guide:
+- <#22D3EE><bold>START</bold> <gray>Use <white>/start<gray>, claim your plot and place
+  generators.
+- <#22D3EE><bold>SELL</bold> <gray>Use <white>/sell<gray> and improve your multiplier.
+- <#22D3EE><bold>PROGRESS</bold> <gray>Use <white>/rankup<gray>, <white>/missions<gray>,
+  fishing and mining.
+tags:
+  starter:
+    display: <dark_gray>[<gray>OG<dark_gray>]
+    permission: ''
+  grinder:
+    display: <dark_gray>[<#22D3EE>Grinder<dark_gray>]
+    permission: vupe.tag.grinder
+  lucky:
+    display: <dark_gray>[<#F472B6>Lucky<dark_gray>]
+    permission: vupe.tag.lucky
+  og:
+    display: <dark_gray>[<#FBBF24>OG<dark_gray>]
+    permission: ''
+  wealthy:
+    display: <dark_gray>[<green>WEALTHY<dark_gray>]
+    permission: ''
+  void:
+    display: <dark_gray>[<#8B5CF6>VOID<dark_gray>]
+    permission: ''
+  apex:
+    display: <dark_gray>[<#F472B6>APEX<dark_gray>]
+    permission: ''
+  founder:
+    display: <dark_gray>[<gradient:#FBBF24:#F472B6>FOUNDER</gradient><dark_gray>]
+    permission: ''
+chat-colors:
+  gray:
+    display: <gray>Gray
+    format: <gray>
+    permission: ''
+  white:
+    display: <white>White
+    format: <white>
+    permission: vupe.chatcolor.white
+  aqua:
+    display: <#22D3EE>Aqua
+    format: <#22D3EE>
+    permission: vupe.chatcolor.aqua
+  pink:
+    display: <#F472B6>Pink
+    format: <#F472B6>
+    permission: vupe.chatcolor.pink
+  purple:
+    display: <#A78BFA>Purple
+    format: <#A78BFA>
+    permission: vupe.chatcolor.purple
+  gold:
+    display: <gold>Gold
+    format: <gold>
+    permission: vupe.chatcolor.gold
+  green:
+    display: <#34D399>Green
+    format: <#34D399>
+    permission: vupe.chatcolor.green
+  rainbow:
+    display: <rainbow>Rainbow</rainbow>
+    format: <rainbow>
+    suffix: </rainbow>
+    permission: vupe.chatcolor.rainbow
