@@ -1,0 +1,64 @@
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - <gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient>
+  - <gray>The next generation of generators
+  - ''
+  - '<gray>Rank: <white>%luckperms-prefix% <dark_gray>• <gray>Level: <white>%vupe_level%
+    <dark_gray>• <gray>Prestige: <#8B5CF6>%vupe_prestige%'
+  - '<gray>Money: <green>$%vupe_money% <dark_gray>• <gray>Crystals: <#8B5CF6>%vupe_crystals%
+    ✦'
+  footer:
+  - ''
+  - '<gray>Online: <white>%online%<dark_gray>/<white>%maxplayers% <dark_gray>• <gray>Ping:
+    <white>%ping%ms <dark_gray>• <gray>TPS: <white>%tps%'
+  - <#22D3EE>play.vupe.example <dark_gray>• <#5865F2>discord.gg/CHANGE_ME
+  - ''
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  can-see-friendly-invisibles: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,developer,manager,sradmin,admin,srmod,moderator,helper,builder,media,vupeplus,titan,phantom,cipher,echo,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: true
+  hidden-by-default: false
+  delay-on-join-milliseconds: 500
+  scoreboards:
+    vupe:
+      title: <gradient:#8B5CF6:#22D3EE><bold>VUPE</bold></gradient>
+      lines:
+      - ''
+      - <gray>ᴘʀᴏғɪʟᴇ
+      - <white>%player%
+      - <gray>Rank <white>%vupe_rank%
+      - <gray>Level <white>%vupe_level% <dark_gray>• <#8B5CF6>P%vupe_prestige%
+      - ''
+      - <gray>ᴇᴄᴏɴᴏᴍʏ
+      - <green>$%vupe_money%
+      - <#8B5CF6>%vupe_crystals% ✦
+      - <gold>%vupe_gold% Gold
+      - ''
+      - <gray>ɢᴇɴᴇʀᴀᴛᴏʀs <white>%vupe_genslots% slots
+      - <gray>Sell <#F472B6>%vupe_sellmulti%x
+      - ''
+      - <#22D3EE>play.vupe.example
+layout:
+  enabled: false
+belowname-objective:
+  enabled: false
+bossbar:
+  enabled: false
+prevent-spectator-effect:
+  enabled: false

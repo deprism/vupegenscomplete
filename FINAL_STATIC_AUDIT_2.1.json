@@ -1,0 +1,19 @@
+{
+  "version": "2.1.0",
+  "yaml_pass": true,
+  "command_registry_pass": true,
+  "java_parser_pass": true,
+  "unwanted_runtime_integration_pass": true,
+  "security_scan_pass": true,
+  "vupecore_commands": 119,
+  "java_files": 42,
+  "java_lines": 13275,
+  "native_shop_historical_products": 142,
+  "native_shop_categories": 7,
+  "native_crates": 6,
+  "native_auction_max_hours": 12,
+  "native_auction_max_listings": 14,
+  "native_auction_bid_increase_percent": 20.0,
+  "maven_available_in_generation_runtime": false,
+  "full_dependency_compile_performed_here": false
+}

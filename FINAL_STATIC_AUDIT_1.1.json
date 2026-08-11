@@ -1,0 +1,11 @@
+{
+  "yaml_pass": true,
+  "command_registry_pass": true,
+  "java_parser_pass": true,
+  "plotsquared_backend_pass": true,
+  "tab_system_pass": true,
+  "security_scan_pass": true,
+  "top_level_vupe_commands": 110,
+  "java_files": 32,
+  "resource_yml_files": 29
+}

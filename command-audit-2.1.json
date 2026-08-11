@@ -1,0 +1,17 @@
+{
+  "declared_count": 119,
+  "registered_count": 119,
+  "declared_not_registered": [],
+  "registered_not_declared": [],
+  "duplicate_registrations": {},
+  "native_commerce_declared": {
+    "bal": true,
+    "balance": true,
+    "pay": true,
+    "eco": true,
+    "baltop": true,
+    "shop": true,
+    "crates": true,
+    "ah": true
+  }
+}

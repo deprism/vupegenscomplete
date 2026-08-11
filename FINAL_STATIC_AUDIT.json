@@ -1,0 +1,13 @@
+{
+  "yaml": true,
+  "commands": true,
+  "java_syntax": true,
+  "credentials": true,
+  "runtime_rebrand": true,
+  "java_files": 31,
+  "java_lines": 8725,
+  "resource_yml_files": 28,
+  "top_level_commands": 112,
+  "module_toggles": 55,
+  "docs": 10
+}

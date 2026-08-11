@@ -1,0 +1,42 @@
+[
+  {
+    "archive": "download-1786147779749.zip",
+    "files": 58,
+    "skript_files": 58,
+    "yaml_files": 0,
+    "ordinary_log_like_files": 0,
+    "extensions": {
+      ".sk": 58
+    }
+  },
+  {
+    "archive": "elestra.zip",
+    "files": 61,
+    "skript_files": 51,
+    "yaml_files": 10,
+    "ordinary_log_like_files": 0,
+    "extensions": {
+      ".sk": 51,
+      ".yml": 10
+    }
+  },
+  {
+    "archive": "Vupe_Minehut_1GB_Complete.zip",
+    "files": 99,
+    "skript_files": 66,
+    "yaml_files": 6,
+    "ordinary_log_like_files": 0,
+    "extensions": {
+      ".sk": 66,
+      ".txt": 14,
+      ".yml": 6,
+      ".legacy-reference": 3,
+      ".md": 3,
+      ".json": 3,
+      ".py": 1,
+      ".properties": 1,
+      ".bat": 1,
+      ".sh": 1
+    }
+  }
+]

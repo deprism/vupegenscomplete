@@ -1,0 +1,19 @@
+{
+  "yaml_pass": true,
+  "command_registry_pass": true,
+  "external_command_ownership_pass": true,
+  "java_parser_pass": true,
+  "security_scan_pass": true,
+  "java_files": 40,
+  "java_lines": 11841,
+  "vupecore_commands": 111,
+  "crystalshop_categories": 12,
+  "store_categories": 8,
+  "progression_ranks": 20,
+  "staff_ranks": 10,
+  "economyshopgui_categories": 10,
+  "economyshopgui_entries": 246,
+  "vupe_sell_materials": 242,
+  "crazycrates": 6,
+  "full_maven_compile_performed_here": false
+}

@@ -1,0 +1,21 @@
+# Vupe MAX quality-first Paper starting overrides.
+# Merge with the version-generated Paper config rather than replacing unknown keys.
+_version: 31
+
+chunks:
+  delay-chunk-unloads-by: 10s
+  max-auto-save-chunks-per-tick: 24
+  prevent-moving-into-unloaded-chunks: true
+
+collisions:
+  max-entity-collisions: 8
+
+entities:
+  armor-stands:
+    do-collision-entity-lookups: false
+    tick: true
+  spawning:
+    per-player-mob-spawns: true
+
+misc:
+  update-pathfinding-on-block-update: true

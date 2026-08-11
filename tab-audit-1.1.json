@@ -1,0 +1,13 @@
+{
+  "tab_completion_service_exists": true,
+  "router_sets_tab_completer": true,
+  "router_delegates_completion": true,
+  "eco_completion_present": true,
+  "generator_completion_present": true,
+  "rank_completion_present": true,
+  "moderation_completion_present": true,
+  "player_list_header_footer_present": true,
+  "player_list_name_format_present": true,
+  "tablist_config_present": true,
+  "paper_player_fallback_snippet_present": true
+}

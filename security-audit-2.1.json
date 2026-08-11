@@ -1,0 +1,5 @@
+{
+  "mongodb_uri": false,
+  "discord_webhook": false,
+  "discord_token_like": false
+}

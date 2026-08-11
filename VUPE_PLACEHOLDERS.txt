@@ -1,0 +1,26 @@
+VupeCore registers its own PlaceholderAPI expansion automatically.
+
+Available:
+%vupe_money%
+%vupe_money_raw%
+%vupe_crystals%
+%vupe_gold%
+%vupe_donor_rank%
+%vupe_rank%
+%vupe_level%
+%vupe_prestige%
+%vupe_xp%
+%vupe_genslots%
+%vupe_sellmulti%
+%vupe_kills%
+%vupe_deaths%
+%vupe_team%
+%vupe_playtime%
+%vupe_afk%
+%vupe_bounty%
+%vupe_fishing_level%
+%vupe_backpack_level%
+
+LuckPerms/TAB can additionally use:
+%luckperms-prefix%
+%luckperms-suffix%

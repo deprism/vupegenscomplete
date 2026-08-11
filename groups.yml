@@ -1,0 +1,14 @@
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: "%luckperms-prefix%"
+  tabsuffix: ""
+  tagsuffix: ""
+
+owner:
+  customtabname: "<gradient:#F472B6:#8B5CF6>%player%</gradient>"
+developer:
+  customtabname: "<gradient:#22D3EE:#8B5CF6>%player%</gradient>"
+manager:
+  customtabname: "<#F472B6>%player%"
+admin:
+  customtabname: "<#A78BFA>%player%"

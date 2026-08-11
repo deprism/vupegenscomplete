@@ -1,0 +1,7 @@
+{
+  "java_release": 21,
+  "source_files": 32,
+  "parser_error_hits": {},
+  "full_maven_compile_performed_locally": false,
+  "reason": "Maven/Paper/PlotSquared/JDA artifacts are not installed in this generation runtime; the supplied GitHub Action performs the dependency-aware Maven build."
+}

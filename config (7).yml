@@ -1,0 +1,12 @@
+cooldown-indicator: TITLE
+replace-adventure: false
+replace-particles: true
+max-book-pages: 100
+max-book-page-length: 5000
+emulate-world-border: true
+always-show-original-mob-name: true
+world-border-particle: fireworksSpark
+enable-offhand: true
+offhand-command: /offhand
+emulate-levitation-effect: true
+handle-player-combat-packet: true

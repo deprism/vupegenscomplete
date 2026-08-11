@@ -1,0 +1,4 @@
+# Merge this under the existing `commands:` section of Paper's paper-global.yml.
+# Do NOT replace your entire paper-global.yml with this file.
+commands:
+  suggest-player-names-when-null-tab-completions: true

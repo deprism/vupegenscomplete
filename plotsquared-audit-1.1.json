@@ -1,0 +1,10 @@
+{
+  "plotsquared_dependency_in_pom": true,
+  "plotsquared_hard_depend_in_plugin_yml": true,
+  "internal_plot_record_removed": true,
+  "internal_plot_registration_removed": true,
+  "internal_island_registration_removed": true,
+  "plotsquared_basic_permission_present": true,
+  "plotsquared_plot_limit_present": true,
+  "plotsquared_api_build_check_present": true
+}

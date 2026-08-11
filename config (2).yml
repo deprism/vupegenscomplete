@@ -1,0 +1,44 @@
+check-for-updates: true
+send-supported-versions: true
+block-versions: []
+block-protocols: []
+reload-disconnect-msg: "Server restart, please rejoin!"
+
+logging:
+  log-blocked-joins: false
+  log-entity-data-errors: true
+  log-text-component-conversion-errors: false
+  log-other-conversion-warnings: false
+  max-error-length: 1500
+
+packet-limiter:
+  enabled: true
+  max-per-second: 800
+  max-per-second-kick-message: "You are sending too many packets!"
+  sustained-max-per-second: 200
+  sustained-period-seconds: 7
+  sustained-threshold: 4
+  sustained-kick-message: "You are sending too many packets!"
+
+packet-size-limiter:
+  enabled: false
+  max-per-second: -1
+  sustained-max-per-second: -1
+
+register-userconnections-on-join: true
+team-colour-fix: true
+serverside-blockconnections: true
+blockconnection-method: packet
+reduce-blockstorage-memory: true
+ignore-long-1_16-channel-names: true
+cache-1_17-light: true
+armor-toggle-fix: true
+
+map-1_16-world-names:
+  overworld: minecraft:overworld
+  nether: minecraft:the_nether
+  end: minecraft:the_end
+
+enforce-secure-chat: false
+fix-1_21-placement-rotation: true
+cancel-swing-in-inventory: true
